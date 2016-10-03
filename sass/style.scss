@@ -284,6 +284,7 @@ div {
 
 #pressleft{
     display: inline-block;
+    height:80%;
     width:45%;
     /*background-color: black;*/
     margin:0;
@@ -315,10 +316,12 @@ div {
 
 #pressright{
     display: inline-block;
+    height:80%;
     width:45%;
     /*background-color: red;*/
     margin:0;
     padding: 0;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -570,9 +573,7 @@ iframe{
  * stolen from: https://codepen.io/lbebber/pen/ypgql */
 
 .glitch{
-  font-size:100px;
   position:relative;
-  width:400px;
   margin:0 auto;
 }
 @keyframes noise-anim{
