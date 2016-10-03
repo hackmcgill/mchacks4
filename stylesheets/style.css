@@ -61,7 +61,7 @@ div {
   height: 60%;
   font-family: Brandon;
   width: 32%;
-  top: 12%;
+  top: 17%;
   left: 34%;
   position: absolute;
   /*border: 1px solid blue;*/
@@ -526,12 +526,11 @@ img {
   text-align: center;
   margin-top: 10%;
   padding: 0;
-  background: url("../images/footer.png");
   /*    margin:0;
       padding:0;*/
 }
 
-/* line 471, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 #footer a {
   margin: 10px;
   display: inline-block;
@@ -542,24 +541,24 @@ img {
       margin-right: 150px;*/
 }
 
-/* line 480, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 #footer p {
   color: white;
 }
 
-/* line 484, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 #sched {
   height: 100%;
 }
 
-/* line 488, ../sass/style.scss */
+/* line 487, ../sass/style.scss */
 body {
   margin: 0;
   width: 100%;
   height: 100%;
 }
 
-/* line 493, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 #sched_center {
   margin-right: auto;
   margin-left: auto;
@@ -567,7 +566,7 @@ body {
   height: 300%;
 }
 
-/* line 501, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 iframe {
   width: 100%;
   height: 100%;
@@ -575,7 +574,7 @@ iframe {
   overflow-Y: hidden;
 }
 
-/* line 508, ../sass/style.scss */
+/* line 507, ../sass/style.scss */
 #pinboard {
   margin-top: 50px;
   height: 600px;
@@ -583,13 +582,13 @@ iframe {
   /*visibility: hidden;*/
 }
 
-/* line 514, ../sass/style.scss */
+/* line 513, ../sass/style.scss */
 #pinboard iframe {
   max-width: 1200px;
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 520, ../sass/style.scss */
+  /* line 519, ../sass/style.scss */
   #page1 {
     background: url("../images/mobile_layer.png") no-repeat top, url("../images/mobile_background.png") no-repeat center center;
     -webkit-background-size: cover, 100% 75%;
@@ -600,12 +599,12 @@ iframe {
     min-height: 100%;
   }
 
-  /* line 532, ../sass/style.scss */
+  /* line 531, ../sass/style.scss */
   #buttonbox {
     margin-top: 10%;
   }
 
-  /* line 536, ../sass/style.scss */
+  /* line 535, ../sass/style.scss */
   #title_container {
     height: 37%;
     width: 65%;
@@ -613,37 +612,37 @@ iframe {
     left: 15.5%;
   }
 
-  /* line 543, ../sass/style.scss */
+  /* line 542, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 547, ../sass/style.scss */
+  /* line 546, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 552, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 557, ../sass/style.scss */
+  /* line 556, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 562, ../sass/style.scss */
+  /* line 561, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 565, ../sass/style.scss */
+  /* line 564, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
@@ -651,7 +650,7 @@ iframe {
 }
 /* glitchy
  * stolen from: https://codepen.io/lbebber/pen/ypgql */
-/* line 575, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .glitch {
   position: relative;
   margin: 0 auto;
@@ -659,70 +658,70 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(5px, 9999px, 34px, 0);
+    clip: rect(67px, 9999px, 70px, 0);
   }
   5% {
-    clip: rect(97px, 9999px, 36px, 0);
+    clip: rect(34px, 9999px, 65px, 0);
   }
   10% {
-    clip: rect(60px, 9999px, 30px, 0);
+    clip: rect(24px, 9999px, 85px, 0);
   }
   15% {
-    clip: rect(37px, 9999px, 64px, 0);
+    clip: rect(71px, 9999px, 31px, 0);
   }
   20% {
-    clip: rect(28px, 9999px, 4px, 0);
+    clip: rect(52px, 9999px, 98px, 0);
   }
   25% {
-    clip: rect(33px, 9999px, 64px, 0);
+    clip: rect(9px, 9999px, 33px, 0);
   }
   30% {
-    clip: rect(49px, 9999px, 100px, 0);
+    clip: rect(50px, 9999px, 100px, 0);
   }
   35% {
-    clip: rect(90px, 9999px, 62px, 0);
+    clip: rect(6px, 9999px, 75px, 0);
   }
   40% {
-    clip: rect(20px, 9999px, 28px, 0);
+    clip: rect(93px, 9999px, 88px, 0);
   }
   45% {
-    clip: rect(13px, 9999px, 5px, 0);
+    clip: rect(47px, 9999px, 89px, 0);
   }
   50% {
-    clip: rect(70px, 9999px, 26px, 0);
+    clip: rect(45px, 9999px, 86px, 0);
   }
   55% {
-    clip: rect(53px, 9999px, 18px, 0);
+    clip: rect(7px, 9999px, 42px, 0);
   }
   60% {
-    clip: rect(28px, 9999px, 28px, 0);
+    clip: rect(83px, 9999px, 60px, 0);
   }
   65% {
-    clip: rect(94px, 9999px, 37px, 0);
+    clip: rect(20px, 9999px, 38px, 0);
   }
   70% {
-    clip: rect(89px, 9999px, 86px, 0);
+    clip: rect(66px, 9999px, 68px, 0);
   }
   75% {
-    clip: rect(59px, 9999px, 13px, 0);
+    clip: rect(9px, 9999px, 62px, 0);
   }
   80% {
-    clip: rect(14px, 9999px, 90px, 0);
+    clip: rect(97px, 9999px, 96px, 0);
   }
   85% {
-    clip: rect(1px, 9999px, 99px, 0);
+    clip: rect(17px, 9999px, 20px, 0);
   }
   90% {
-    clip: rect(12px, 9999px, 51px, 0);
+    clip: rect(51px, 9999px, 34px, 0);
   }
   95% {
-    clip: rect(65px, 9999px, 64px, 0);
+    clip: rect(25px, 9999px, 60px, 0);
   }
   100% {
-    clip: rect(76px, 9999px, 8px, 0);
+    clip: rect(87px, 9999px, 8px, 0);
   }
 }
-/* line 587, ../sass/style.scss */
+/* line 586, ../sass/style.scss */
 .glitch:after {
   content: attr(data-text);
   position: absolute;
@@ -737,70 +736,70 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(22px, 9999px, 57px, 0);
+    clip: rect(44px, 9999px, 21px, 0);
   }
   5% {
-    clip: rect(58px, 9999px, 80px, 0);
+    clip: rect(54px, 9999px, 77px, 0);
   }
   10% {
-    clip: rect(49px, 9999px, 25px, 0);
+    clip: rect(39px, 9999px, 72px, 0);
   }
   15% {
-    clip: rect(31px, 9999px, 16px, 0);
+    clip: rect(66px, 9999px, 17px, 0);
   }
   20% {
-    clip: rect(77px, 9999px, 40px, 0);
+    clip: rect(67px, 9999px, 33px, 0);
   }
   25% {
-    clip: rect(57px, 9999px, 51px, 0);
+    clip: rect(68px, 9999px, 33px, 0);
   }
   30% {
-    clip: rect(67px, 9999px, 11px, 0);
+    clip: rect(20px, 9999px, 58px, 0);
   }
   35% {
-    clip: rect(30px, 9999px, 67px, 0);
+    clip: rect(69px, 9999px, 19px, 0);
   }
   40% {
-    clip: rect(58px, 9999px, 47px, 0);
+    clip: rect(39px, 9999px, 33px, 0);
   }
   45% {
-    clip: rect(46px, 9999px, 82px, 0);
+    clip: rect(56px, 9999px, 29px, 0);
   }
   50% {
-    clip: rect(47px, 9999px, 85px, 0);
+    clip: rect(78px, 9999px, 70px, 0);
   }
   55% {
-    clip: rect(76px, 9999px, 22px, 0);
+    clip: rect(84px, 9999px, 36px, 0);
   }
   60% {
-    clip: rect(17px, 9999px, 77px, 0);
+    clip: rect(31px, 9999px, 29px, 0);
   }
   65% {
-    clip: rect(23px, 9999px, 72px, 0);
+    clip: rect(87px, 9999px, 54px, 0);
   }
   70% {
-    clip: rect(70px, 9999px, 29px, 0);
+    clip: rect(4px, 9999px, 3px, 0);
   }
   75% {
-    clip: rect(57px, 9999px, 17px, 0);
+    clip: rect(17px, 9999px, 22px, 0);
   }
   80% {
-    clip: rect(44px, 9999px, 23px, 0);
+    clip: rect(31px, 9999px, 10px, 0);
   }
   85% {
-    clip: rect(63px, 9999px, 68px, 0);
+    clip: rect(6px, 9999px, 75px, 0);
   }
   90% {
-    clip: rect(33px, 9999px, 24px, 0);
+    clip: rect(3px, 9999px, 16px, 0);
   }
   95% {
-    clip: rect(7px, 9999px, 62px, 0);
+    clip: rect(1px, 9999px, 100px, 0);
   }
   100% {
-    clip: rect(53px, 9999px, 64px, 0);
+    clip: rect(22px, 9999px, 52px, 0);
   }
 }
-/* line 607, ../sass/style.scss */
+/* line 606, ../sass/style.scss */
 .glitch:before {
   content: attr(data-text);
   position: absolute;

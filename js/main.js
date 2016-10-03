@@ -67,8 +67,8 @@ function main() {
 
     linebreak_fixer();
     $(window).on('resize orientationchange', linebreak_fixer);
-    var vid = document.getElementById("youtube");
-    vid.setAttribute("style","height:"+vid.clientWidth*9/16+"px");
+    // var vid = document.getElementById("youtube");
+    // vid.setAttribute("style","height:"+vid.clientWidth*9/16+"px");
 
     // $('.fittext-content').css('visibility', 'visible');
     $('.fittext-content').css('visibility','visible').hide().fadeIn("slow");
