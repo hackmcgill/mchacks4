@@ -1,17 +1,17 @@
 /*
-Error: File to import not found or unreadable: compass/css3.
+Error: File to import not found or unreadable: compass/reset.
        Load path: /Users/bill/Code/mchacks/sass
-        on line 1 of sass/style.scss
+        on line 6 of sass/screen.scss
 
-1: @import "compass/css3";
-2: 
-3: ul {
-4:   margin: 0;
-5:   padding: 0;
-6: }
+1: /* Welcome to Compass.
+2:  * In this file you should write your main styles. (or centralize your imports)
+3:  * Import this file using the following HTML or equivalent:
+4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
+5: 
+6: @import "compass/reset";
 
 Backtrace:
-sass/style.scss:1
+sass/screen.scss:6
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -55,4 +55,4 @@ sass/style.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/css3.\A        Load path: /Users/bill/Code/mchacks/sass\A         on line 1 of sass/style.scss\A \A 1: @import \"compass/css3\";\A 2: \A 3: ul {\A 4:   margin: 0;\A 5:   padding: 0;\A 6: }"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A        Load path: /Users/bill/Code/mchacks/sass\A         on line 6 of sass/screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";"; }
