@@ -650,3 +650,195 @@ iframe{
   clip:rect(0,900px,0,0); 
   animation:noise-anim-2 3s infinite linear alternate-reverse;
 }
+
+/* Registration */
+.bird-reg#birdbox {
+    margin-top: 50px;
+}
+
+#application {
+    width:45%;
+    margin:auto;
+    font-family: Brandon;
+    margin-top:3%;
+    text-align: justify;
+    padding: 30px;
+    padding-top: 0px;
+    height: 900px;
+}
+
+#mcform input {
+    font-size: 1.2em;
+    width: 150px;
+    display: block;
+    padding:4px;
+}
+
+.form-input{
+    float: left;
+}
+
+.form-input:not(:first-child) {
+    margin-left: 10%;
+}
+
+#mcform label {
+    display: block;
+}
+
+/* form css */
+$color  : #888888;
+$bgColor: #fffdfa;
+$lucida: "Lucida Grande", "Trebuchet MS", sans-serif;
+
+
+form, ul, li, input, label {
+    box-sizing: border-box;
+}
+#mcform h1 {
+    color: #333;
+    font-family: $lucida;
+    font-size: 1.6em;
+    margin: 0.5em 0 1em 0;
+    text-align: center;
+}
+
+#mcform p {
+    color: #333;
+    font-family: $lucida;
+    font-size: 1.6em;
+    margin: 0.5em 0 1em 0;
+    text-align: center;
+}
+
+#mcform ul {
+    background-color: $bgColor;
+    border: 6px groove rgba(41, 32, 75, 0.7);
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 350px;
+}
+#mcform li {
+    border-bottom: 1px solid lighten($color, 25);
+    margin-top: -1px; // border collapser
+    position: relative;
+}
+
+#mcform li:last-child {
+    border-bottom: none;
+}
+
+#mcform label, {
+    color: #3c3c3c;
+    letter-spacing: 0.03em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    .active &, input:focus+& {
+        color: #0074D9;
+        font-weight: bold;
+        letter-spacing: -0.01em;
+    }
+}
+#mcform input, input:focus {
+    background-color: transparent;
+    border: none;
+    color: darken($color, 15);
+    font-size: 18px;
+    margin: 9px 0 7px 0;
+    margin: 0;
+    padding: 2em 10px 10px 10px;
+    outline: none;
+    width: 100%;
+}
+#mcform input:focus {
+    color: #000;
+        background-color: lighten($color, 40);
+        box-shadow: 0px 3px 4px -2px rgba(0,0,115,0.25) inset;
+}
+#mcform label, input {
+    transition: color 0.4s ease, background-color 0.1s ease-in-out;
+}
+
+#reason {
+    resize: none;
+}
+
+#mcform textarea {
+    width:94%;
+    height:105px;
+    background-color: transparent;
+    border: none;
+    color: darken($color, 15);
+    font-size: 18px;
+    margin: 9px 0 7px 0;
+    margin: 0;
+    padding: 2em 10px 0px 10px;
+    outline: none;
+}
+
+#mcform textarea:focus {
+    color: #000;
+        background-color: lighten($color, 40);
+        box-shadow: 0px 3px 4px -2px rgba(0,0,115,0.25) inset;
+}
+
+#mcform #fupload {
+    font-size: 1em;
+    text-align: justify;
+    padding-top: 35px;
+}
+
+input:focus#fupload {
+    background-color: transparent !important;
+}
+
+#app-header{
+    width:300px;
+    margin:auto;
+    font-family: Brandon;
+    margin-top:3%;
+    //background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    text-decoration: underline;
+    padding: 30px;
+    text-align: center;
+}
+
+#submit-app {
+    border: none;
+    background-color: #922345;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+#submit-app:hover {
+    background-color: #FF4136;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
