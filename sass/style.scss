@@ -660,7 +660,6 @@ iframe{
     width:45%;
     margin:auto;
     font-family: Brandon;
-    margin-top:3%;
     text-align: justify;
     padding: 30px;
     padding-top: 0px;
@@ -799,12 +798,14 @@ input:focus#fupload {
     width:300px;
     margin:auto;
     font-family: Brandon;
-    margin-top:3%;
     //background-color: rgba(255, 255, 255, 0.7);
     text-align: justify;
-    text-decoration: underline;
     padding: 30px;
     text-align: center;
+}
+
+#app-header h1 {
+    text-decoration: underline;
 }
 
 #submit-app {
@@ -826,6 +827,32 @@ input:focus#fupload {
     background-color: #FF4136;
 }
 
+#requiredField {
+    width: 300px;
+    margin: auto;
+    font-family: Brandon;
+    //margin-top: 3%;
+    text-align: justify;
+    padding: 5px;
+    text-align: center;
+}
+
+#required {
+    color: #EE3E33;
+}
+
+#thanks {
+    width:45%;
+    margin:auto;
+    font-family: Brandon;
+    //background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin-top: 3%;
+}
 
 
 

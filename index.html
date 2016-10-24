@@ -26,12 +26,14 @@
 <!--                     <div id="mchacksbox">Mc<span class="glitch" data-text="Hacks">Hacks</span></div> -->
                     <div id="mcgillbox">McGill University</div>
                     <div id="datebox">January 28-29, 2017</div>
-                    <div id="registration"><em>Registration Coming Soon</em></div>
+                    <!-- <div id="registration"><em>Registration Coming Soon</em></div> -->
                     <div id="talkbox">Talk to us at <a href="mailto:contact@mchacks.io">contact@mchacks.io</a></div>
                     <div id="buttonbox">
-<!--                         <div id="registerbutton">
-                            <span class="verticenter">Registration Closed</span>
-                        </div> -->
+                        <a href="register.html">
+                            <div id="registerbutton">
+                                <span class="verticenter">Register Now</span>
+                            </div>
+                        </a>
 <!--                         <a href="mailto:sponsorship@mchacks.io">
                             <div id="linksbutton">
                                 <span class="verticenter">Sponsor Now<span>
@@ -248,9 +250,9 @@
     <script>
       $(function(){
           $("#changingword").typed({
-            strings: ["exciting", "friendly", "badass", "Canadian", "fantastic", "avant-garde", "lucrative"],
-            typeSpeed: 20,
-            backSpeed: 30,
+            strings: ["exciting", "friendly", "badass", "Canadian", "fantastic", "avant-garde", "lucrative", "welcoming", "rewarding"],
+            typeSpeed: 50,
+            backSpeed: 60,
             loop: true,
             shuffle: true
           });
@@ -261,7 +263,7 @@
 
         //var dimensions = target.getClientRects()[0];
         var pattern = Trianglify({
-            x_colors: ['#58445C', '#8B013D', '#972E4C', '#DA7E6F', '#E87879', '#DB7871', '#85013A', '#844556', '#423843'],
+            x_colors: ['#58445C', '#8B013D', '#972E4C', '#DA7E6F', '#FAE4E4', '#FAE4E4', '#FAE4E4', '#DB7871', '#85013A', '#844556', '#423843'],
             y_colors: 'match_x',
             cell_size: 130,
             variance: 1,

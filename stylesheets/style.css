@@ -702,67 +702,67 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(7px, 9999px, 41px, 0);
+    clip: rect(81px, 9999px, 44px, 0);
   }
   5% {
-    clip: rect(94px, 9999px, 96px, 0);
+    clip: rect(78px, 9999px, 80px, 0);
   }
   10% {
-    clip: rect(74px, 9999px, 33px, 0);
+    clip: rect(70px, 9999px, 42px, 0);
   }
   15% {
-    clip: rect(6px, 9999px, 78px, 0);
+    clip: rect(22px, 9999px, 50px, 0);
   }
   20% {
-    clip: rect(70px, 9999px, 5px, 0);
+    clip: rect(32px, 9999px, 65px, 0);
   }
   25% {
-    clip: rect(58px, 9999px, 84px, 0);
+    clip: rect(69px, 9999px, 42px, 0);
   }
   30% {
-    clip: rect(58px, 9999px, 74px, 0);
+    clip: rect(55px, 9999px, 39px, 0);
   }
   35% {
-    clip: rect(41px, 9999px, 66px, 0);
+    clip: rect(78px, 9999px, 23px, 0);
   }
   40% {
-    clip: rect(80px, 9999px, 15px, 0);
+    clip: rect(82px, 9999px, 96px, 0);
   }
   45% {
-    clip: rect(67px, 9999px, 8px, 0);
+    clip: rect(93px, 9999px, 70px, 0);
   }
   50% {
-    clip: rect(84px, 9999px, 1px, 0);
+    clip: rect(83px, 9999px, 2px, 0);
   }
   55% {
-    clip: rect(67px, 9999px, 32px, 0);
+    clip: rect(44px, 9999px, 42px, 0);
   }
   60% {
-    clip: rect(3px, 9999px, 24px, 0);
+    clip: rect(11px, 9999px, 70px, 0);
   }
   65% {
-    clip: rect(19px, 9999px, 30px, 0);
+    clip: rect(68px, 9999px, 74px, 0);
   }
   70% {
-    clip: rect(84px, 9999px, 92px, 0);
+    clip: rect(64px, 9999px, 79px, 0);
   }
   75% {
-    clip: rect(8px, 9999px, 70px, 0);
+    clip: rect(87px, 9999px, 55px, 0);
   }
   80% {
-    clip: rect(62px, 9999px, 82px, 0);
+    clip: rect(35px, 9999px, 53px, 0);
   }
   85% {
-    clip: rect(1px, 9999px, 22px, 0);
+    clip: rect(69px, 9999px, 91px, 0);
   }
   90% {
-    clip: rect(87px, 9999px, 15px, 0);
+    clip: rect(54px, 9999px, 89px, 0);
   }
   95% {
-    clip: rect(35px, 9999px, 75px, 0);
+    clip: rect(72px, 9999px, 88px, 0);
   }
   100% {
-    clip: rect(8px, 9999px, 13px, 0);
+    clip: rect(19px, 9999px, 14px, 0);
   }
 }
 /* line 622, ../sass/style.scss */
@@ -780,67 +780,67 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(56px, 9999px, 56px, 0);
+    clip: rect(3px, 9999px, 70px, 0);
   }
   5% {
-    clip: rect(96px, 9999px, 83px, 0);
+    clip: rect(81px, 9999px, 19px, 0);
   }
   10% {
-    clip: rect(72px, 9999px, 33px, 0);
+    clip: rect(36px, 9999px, 92px, 0);
   }
   15% {
-    clip: rect(85px, 9999px, 26px, 0);
+    clip: rect(84px, 9999px, 54px, 0);
   }
   20% {
-    clip: rect(89px, 9999px, 85px, 0);
+    clip: rect(46px, 9999px, 9px, 0);
   }
   25% {
-    clip: rect(94px, 9999px, 69px, 0);
+    clip: rect(17px, 9999px, 56px, 0);
   }
   30% {
-    clip: rect(62px, 9999px, 44px, 0);
+    clip: rect(87px, 9999px, 89px, 0);
   }
   35% {
-    clip: rect(56px, 9999px, 65px, 0);
+    clip: rect(60px, 9999px, 48px, 0);
   }
   40% {
-    clip: rect(51px, 9999px, 87px, 0);
+    clip: rect(89px, 9999px, 64px, 0);
   }
   45% {
-    clip: rect(36px, 9999px, 87px, 0);
+    clip: rect(88px, 9999px, 60px, 0);
   }
   50% {
-    clip: rect(56px, 9999px, 56px, 0);
+    clip: rect(7px, 9999px, 63px, 0);
   }
   55% {
-    clip: rect(68px, 9999px, 11px, 0);
+    clip: rect(96px, 9999px, 10px, 0);
   }
   60% {
-    clip: rect(77px, 9999px, 13px, 0);
+    clip: rect(72px, 9999px, 15px, 0);
   }
   65% {
-    clip: rect(82px, 9999px, 25px, 0);
+    clip: rect(74px, 9999px, 27px, 0);
   }
   70% {
-    clip: rect(46px, 9999px, 44px, 0);
+    clip: rect(71px, 9999px, 92px, 0);
   }
   75% {
-    clip: rect(54px, 9999px, 85px, 0);
+    clip: rect(39px, 9999px, 64px, 0);
   }
   80% {
-    clip: rect(46px, 9999px, 49px, 0);
+    clip: rect(28px, 9999px, 15px, 0);
   }
   85% {
-    clip: rect(58px, 9999px, 83px, 0);
+    clip: rect(20px, 9999px, 31px, 0);
   }
   90% {
-    clip: rect(36px, 9999px, 20px, 0);
+    clip: rect(7px, 9999px, 63px, 0);
   }
   95% {
-    clip: rect(54px, 9999px, 26px, 0);
+    clip: rect(62px, 9999px, 2px, 0);
   }
   100% {
-    clip: rect(14px, 9999px, 47px, 0);
+    clip: rect(62px, 9999px, 15px, 0);
   }
 }
 /* line 642, ../sass/style.scss */
@@ -854,4 +854,232 @@ iframe {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+/* Registration */
+/* line 655, ../sass/style.scss */
+.bird-reg#birdbox {
+  margin-top: 50px;
+}
+
+/* line 659, ../sass/style.scss */
+#application {
+  width: 45%;
+  margin: auto;
+  font-family: Brandon;
+  text-align: justify;
+  padding: 30px;
+  padding-top: 0px;
+  height: 900px;
+}
+
+/* line 669, ../sass/style.scss */
+#mcform input {
+  font-size: 1.2em;
+  width: 150px;
+  display: block;
+  padding: 4px;
+}
+
+/* line 676, ../sass/style.scss */
+.form-input {
+  float: left;
+}
+
+/* line 680, ../sass/style.scss */
+.form-input:not(:first-child) {
+  margin-left: 10%;
+}
+
+/* line 684, ../sass/style.scss */
+#mcform label {
+  display: block;
+}
+
+/* form css */
+/* line 694, ../sass/style.scss */
+form, ul, li, input, label {
+  box-sizing: border-box;
+}
+
+/* line 697, ../sass/style.scss */
+#mcform h1 {
+  color: #333;
+  font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+  font-size: 1.6em;
+  margin: 0.5em 0 1em 0;
+  text-align: center;
+}
+
+/* line 705, ../sass/style.scss */
+#mcform p {
+  color: #333;
+  font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+  font-size: 1.6em;
+  margin: 0.5em 0 1em 0;
+  text-align: center;
+}
+
+/* line 713, ../sass/style.scss */
+#mcform ul {
+  background-color: #fffdfa;
+  border: 6px groove rgba(41, 32, 75, 0.7);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 350px;
+}
+
+/* line 721, ../sass/style.scss */
+#mcform li {
+  border-bottom: 1px solid #c8c8c8;
+  margin-top: -1px;
+  position: relative;
+}
+
+/* line 727, ../sass/style.scss */
+#mcform li:last-child {
+  border-bottom: none;
+}
+
+/* line 731, ../sass/style.scss */
+#mcform label {
+  color: #3c3c3c;
+  letter-spacing: 0.03em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+}
+/* line 738, ../sass/style.scss */
+.active #mcform label, input:focus + #mcform label {
+  color: #0074D9;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+}
+
+/* line 744, ../sass/style.scss */
+#mcform input, input:focus {
+  background-color: transparent;
+  border: none;
+  color: #626262;
+  font-size: 18px;
+  margin: 9px 0 7px 0;
+  margin: 0;
+  padding: 2em 10px 10px 10px;
+  outline: none;
+  width: 100%;
+}
+
+/* line 755, ../sass/style.scss */
+#mcform input:focus {
+  color: #000;
+  background-color: #eeeeee;
+  box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
+}
+
+/* line 760, ../sass/style.scss */
+#mcform label, input {
+  transition: color 0.4s ease, background-color 0.1s ease-in-out;
+}
+
+/* line 764, ../sass/style.scss */
+#reason {
+  resize: none;
+}
+
+/* line 768, ../sass/style.scss */
+#mcform textarea {
+  width: 94%;
+  height: 105px;
+  background-color: transparent;
+  border: none;
+  color: #626262;
+  font-size: 18px;
+  margin: 9px 0 7px 0;
+  margin: 0;
+  padding: 2em 10px 0px 10px;
+  outline: none;
+}
+
+/* line 781, ../sass/style.scss */
+#mcform textarea:focus {
+  color: #000;
+  background-color: #eeeeee;
+  box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
+}
+
+/* line 787, ../sass/style.scss */
+#mcform #fupload {
+  font-size: 1em;
+  text-align: justify;
+  padding-top: 35px;
+}
+
+/* line 793, ../sass/style.scss */
+input:focus#fupload {
+  background-color: transparent !important;
+}
+
+/* line 797, ../sass/style.scss */
+#app-header {
+  width: 300px;
+  margin: auto;
+  font-family: Brandon;
+  text-align: justify;
+  padding: 30px;
+  text-align: center;
+}
+
+/* line 807, ../sass/style.scss */
+#app-header h1 {
+  text-decoration: underline;
+}
+
+/* line 811, ../sass/style.scss */
+#submit-app {
+  border: none;
+  background-color: #922345;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* line 826, ../sass/style.scss */
+#submit-app:hover {
+  background-color: #FF4136;
+}
+
+/* line 830, ../sass/style.scss */
+#requiredField {
+  width: 300px;
+  margin: auto;
+  font-family: Brandon;
+  text-align: justify;
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 840, ../sass/style.scss */
+#required {
+  color: #EE3E33;
+}
+
+/* line 844, ../sass/style.scss */
+#thanks {
+  width: 45%;
+  margin: auto;
+  font-family: Brandon;
+  text-align: justify;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  margin-top: 3%;
 }
