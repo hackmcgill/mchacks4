@@ -62,7 +62,7 @@
                     <ul>
                         <li>
                             <input id="schoolField" type="text" name="school" placeholder="Enter your school and its location" required>
-                            <label for="school">School <span id="required">*</span></label>
+                            <label for="school">School (select best match)<span id="required">*</span></label>
                         </li>
                         <li>
                             <input id="travelField" type="text" name="travel_origin" placeholder="Enter your alternate travel origin">
@@ -129,6 +129,17 @@
 
                 <section>
                     <ul>
+                        <li>
+                            <select name="hackathons_no" id="hackathons_no">
+                                            <option value="">Select number</option>
+                                            <option value="X-Small">0</option>
+                                            <option value="Small">1</option>
+                                            <option value="Medium">2-3</option>
+                                            <option value="Large">4-5</option>
+                                            <option value="X-Large">6+</option>
+                            </select>
+                            <label for="hackathons_no">Number of Hackathons Attended</label>
+                        </li>
                         <li>
                             <input type="url" name="site">
                             <label for="site">Personal Webpage (http://...)</label>
