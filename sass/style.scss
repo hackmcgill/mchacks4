@@ -845,6 +845,13 @@ input:focus#fupload {
     font-size: 14px;
 }
 
+#file_fail {
+    color: red;
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
 #submit_sec ul {
     border: none;
 }

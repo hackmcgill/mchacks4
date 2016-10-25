@@ -166,7 +166,11 @@
                     <br style="clear:both;" />
                 </section>
 
-                <section style="margin-top: 100px">
+            </form>
+
+            <div id="mcform">
+
+            <section style="margin-top: 100px">
 
                     <ul style="height: 88px; max-width: 314px;">
                         <li>
@@ -177,38 +181,39 @@
                     <br style="clear:both;" />
                 </section>
 
-                <section>
+            <section>
 
-                    <ul style="height: 50px; text-align: right">
-                        <li>
-                            <section title=".squaredFour">
-                            <!-- .squaredFour -->
-                            <div class="squaredFour">
-                                <input type="checkbox" value="agreed" id="conduct" name="conduct"/>
-                                <label for="conduct"></label>
-                                <p>I agree to the McHacks <a href="conduct.html" target='_blank'>Code of Conduct</a><span id="required">*</span></p>
-                            </div>
-                            <!-- end .squaredFour -->
-                            </section>
-                        </li>
-                    </ul>
+                <ul style="height: 50px; text-align: right">
+                    <li>
+                        <section title=".squaredFour">
+                        <!-- .squaredFour -->
+                        <div class="squaredFour">
+                            <input type="checkbox" value="agreed" id="conduct" name="conduct"/>
+                            <label for="conduct"></label>
+                            <p>I agree to the McHacks <a href="conduct.html" target='_blank'>Code of Conduct</a><span id="required">*</span></p>
+                        </div>
+                        <!-- end .squaredFour -->
+                        </section>
+                    </li>
+                </ul>
 
-                    <br style="clear:both;" />
-                </section>
+                <br style="clear:both;" />
+            </section>
 
 
-                <section style="margin-bottom: 59px;">
+            <section style="margin-bottom: 59px;">
 
-                    <ul style="border: none">
-                        <li>
-                        <button id="submit-app" type="submit">Submit My Application</button>
-                        <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
-                        <span id="check_conduct" style="display: none"/>You must agree to the McHacks code of conduct.</span>
-                        </li>
-                    </ul>
-                </section>
+                <ul style="border: none">
+                    <li>
+                    <button id="submit-app" type="submit" form="mcform">Submit My Application</button>
+                    <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
+                    <span id="check_conduct" style="display: none"/>You must agree to the McHacks code of conduct.</span>
+                    <span id="file_fail" style="display: none"/>You must upload a resume to continue.<br>&nbsp;&nbsp;&nbsp;If you don't have a resume, upload a puppy.</span>
+                    </li>
+                </ul>
+            </section>
 
-            </form>
+        </div>
 
 
 
@@ -232,15 +237,20 @@
     function validateCaptcha() {
         $("#captcha").hide();
         $("#check_conduct").hide();
+        $("#file_fail").hide();
         var v = grecaptcha.getResponse();
         if(v.length == 0)
         {
             $("#captcha").show();
             return false;
         }
-        if(!document.getElementById('conduct').checked)
-        {
+        if(!document.getElementById('conduct').checked) {
             $("#check_conduct").show();
+            return false;
+        }
+        if(!document.getElementById("fupload").value != "") {
+            $("#file_fail").show();
+            document.getElementById("fupload").accept = ".pdf, image/*";
             return false;
         }
         else

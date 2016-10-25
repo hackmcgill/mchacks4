@@ -646,67 +646,67 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(58px, 9999px, 24px, 0);
+    clip: rect(64px, 9999px, 17px, 0);
   }
   5% {
-    clip: rect(45px, 9999px, 77px, 0);
+    clip: rect(40px, 9999px, 54px, 0);
   }
   10% {
-    clip: rect(61px, 9999px, 9px, 0);
+    clip: rect(81px, 9999px, 70px, 0);
   }
   15% {
-    clip: rect(62px, 9999px, 88px, 0);
+    clip: rect(60px, 9999px, 48px, 0);
   }
   20% {
-    clip: rect(54px, 9999px, 84px, 0);
+    clip: rect(60px, 9999px, 17px, 0);
   }
   25% {
-    clip: rect(3px, 9999px, 43px, 0);
+    clip: rect(22px, 9999px, 6px, 0);
   }
   30% {
-    clip: rect(38px, 9999px, 90px, 0);
+    clip: rect(79px, 9999px, 29px, 0);
   }
   35% {
-    clip: rect(12px, 9999px, 13px, 0);
+    clip: rect(75px, 9999px, 81px, 0);
   }
   40% {
-    clip: rect(89px, 9999px, 100px, 0);
+    clip: rect(67px, 9999px, 18px, 0);
   }
   45% {
-    clip: rect(53px, 9999px, 75px, 0);
+    clip: rect(71px, 9999px, 90px, 0);
   }
   50% {
-    clip: rect(92px, 9999px, 58px, 0);
+    clip: rect(97px, 9999px, 41px, 0);
   }
   55% {
-    clip: rect(86px, 9999px, 8px, 0);
+    clip: rect(95px, 9999px, 92px, 0);
   }
   60% {
-    clip: rect(36px, 9999px, 47px, 0);
+    clip: rect(91px, 9999px, 37px, 0);
   }
   65% {
-    clip: rect(49px, 9999px, 32px, 0);
+    clip: rect(96px, 9999px, 66px, 0);
   }
   70% {
-    clip: rect(41px, 9999px, 89px, 0);
+    clip: rect(84px, 9999px, 70px, 0);
   }
   75% {
-    clip: rect(77px, 9999px, 38px, 0);
+    clip: rect(85px, 9999px, 42px, 0);
   }
   80% {
-    clip: rect(13px, 9999px, 44px, 0);
+    clip: rect(42px, 9999px, 32px, 0);
   }
   85% {
-    clip: rect(58px, 9999px, 51px, 0);
+    clip: rect(18px, 9999px, 90px, 0);
   }
   90% {
-    clip: rect(92px, 9999px, 70px, 0);
+    clip: rect(27px, 9999px, 81px, 0);
   }
   95% {
-    clip: rect(38px, 9999px, 43px, 0);
+    clip: rect(39px, 9999px, 74px, 0);
   }
   100% {
-    clip: rect(8px, 9999px, 27px, 0);
+    clip: rect(94px, 9999px, 96px, 0);
   }
 }
 /* line 574, ../sass/style.scss */
@@ -724,67 +724,67 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(11px, 9999px, 30px, 0);
+    clip: rect(34px, 9999px, 25px, 0);
   }
   5% {
-    clip: rect(62px, 9999px, 59px, 0);
+    clip: rect(13px, 9999px, 33px, 0);
   }
   10% {
-    clip: rect(90px, 9999px, 44px, 0);
+    clip: rect(79px, 9999px, 1px, 0);
   }
   15% {
-    clip: rect(34px, 9999px, 54px, 0);
+    clip: rect(11px, 9999px, 84px, 0);
   }
   20% {
-    clip: rect(49px, 9999px, 8px, 0);
+    clip: rect(93px, 9999px, 35px, 0);
   }
   25% {
-    clip: rect(27px, 9999px, 59px, 0);
+    clip: rect(81px, 9999px, 4px, 0);
   }
   30% {
-    clip: rect(17px, 9999px, 1px, 0);
+    clip: rect(19px, 9999px, 28px, 0);
   }
   35% {
-    clip: rect(18px, 9999px, 44px, 0);
+    clip: rect(85px, 9999px, 62px, 0);
   }
   40% {
-    clip: rect(5px, 9999px, 42px, 0);
+    clip: rect(63px, 9999px, 12px, 0);
   }
   45% {
-    clip: rect(75px, 9999px, 31px, 0);
+    clip: rect(66px, 9999px, 82px, 0);
   }
   50% {
-    clip: rect(96px, 9999px, 9px, 0);
+    clip: rect(21px, 9999px, 91px, 0);
   }
   55% {
-    clip: rect(79px, 9999px, 65px, 0);
+    clip: rect(59px, 9999px, 68px, 0);
   }
   60% {
-    clip: rect(37px, 9999px, 98px, 0);
+    clip: rect(52px, 9999px, 20px, 0);
   }
   65% {
-    clip: rect(37px, 9999px, 40px, 0);
+    clip: rect(89px, 9999px, 46px, 0);
   }
   70% {
-    clip: rect(98px, 9999px, 74px, 0);
+    clip: rect(5px, 9999px, 74px, 0);
   }
   75% {
-    clip: rect(46px, 9999px, 61px, 0);
+    clip: rect(10px, 9999px, 20px, 0);
   }
   80% {
-    clip: rect(66px, 9999px, 75px, 0);
+    clip: rect(74px, 9999px, 32px, 0);
   }
   85% {
-    clip: rect(71px, 9999px, 28px, 0);
+    clip: rect(2px, 9999px, 23px, 0);
   }
   90% {
-    clip: rect(7px, 9999px, 28px, 0);
+    clip: rect(69px, 9999px, 58px, 0);
   }
   95% {
-    clip: rect(77px, 9999px, 81px, 0);
+    clip: rect(19px, 9999px, 41px, 0);
   }
   100% {
-    clip: rect(39px, 9999px, 94px, 0);
+    clip: rect(68px, 9999px, 94px, 0);
   }
 }
 /* line 594, ../sass/style.scss */
@@ -1069,17 +1069,25 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 849, ../sass/style.scss */
+/* line 848, ../sass/style.scss */
+#file_fail {
+  color: red;
+  padding: 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+/* line 855, ../sass/style.scss */
 #submit_sec ul {
   border: none;
 }
 
-/* line 853, ../sass/style.scss */
+/* line 859, ../sass/style.scss */
 .squaredFour {
   width: 20px;
   position: relative;
 }
-/* line 856, ../sass/style.scss */
+/* line 862, ../sass/style.scss */
 .squaredFour p {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -1092,7 +1100,7 @@ input:focus#fupload {
   text-align: left;
   margin: 0;
 }
-/* line 868, ../sass/style.scss */
+/* line 874, ../sass/style.scss */
 .squaredFour label {
   width: 15px;
   height: 15px;
@@ -1105,7 +1113,7 @@ input:focus#fupload {
   border-radius: 4px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 879, ../sass/style.scss */
+/* line 885, ../sass/style.scss */
 .squaredFour label:after {
   content: '';
   width: 9px;
@@ -1120,31 +1128,31 @@ input:focus#fupload {
   opacity: 0;
   transform: rotate(-45deg);
 }
-/* line 893, ../sass/style.scss */
+/* line 899, ../sass/style.scss */
 .squaredFour label:hover::after {
   opacity: 0.5;
 }
-/* line 897, ../sass/style.scss */
+/* line 903, ../sass/style.scss */
 .squaredFour input[type=checkbox] {
   visibility: hidden;
 }
-/* line 899, ../sass/style.scss */
+/* line 905, ../sass/style.scss */
 .squaredFour input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 919, ../sass/style.scss */
+  /* line 925, ../sass/style.scss */
   #sponsor_text {
     display: none;
   }
 
-  /* line 923, ../sass/style.scss */
+  /* line 929, ../sass/style.scss */
   #faqs {
     width: 80%;
   }
 
-  /* line 927, ../sass/style.scss */
+  /* line 933, ../sass/style.scss */
   #buttonbox {
     width: 62%;
     left: 19%;
@@ -1152,17 +1160,17 @@ input:focus#fupload {
     line-height: 3em;
   }
 
-  /* line 934, ../sass/style.scss */
+  /* line 940, ../sass/style.scss */
   #registerbutton {
     width: 100%;
   }
 
-  /* line 938, ../sass/style.scss */
+  /* line 944, ../sass/style.scss */
   #sponsorbutton {
     width: 100%;
   }
 
-  /* line 942, ../sass/style.scss */
+  /* line 948, ../sass/style.scss */
   #title_container {
     height: 57%;
     width: 65%;
@@ -1170,49 +1178,49 @@ input:focus#fupload {
     left: 18%;
   }
 
-  /* line 949, ../sass/style.scss */
+  /* line 955, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 953, ../sass/style.scss */
+  /* line 959, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 958, ../sass/style.scss */
+  /* line 964, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 963, ../sass/style.scss */
+  /* line 969, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 968, ../sass/style.scss */
+  /* line 974, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 971, ../sass/style.scss */
+  /* line 977, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
   }
 
-  /* line 976, ../sass/style.scss */
+  /* line 982, ../sass/style.scss */
   #application {
     width: 100%;
     padding: 0px;
   }
 
-  /* line 981, ../sass/style.scss */
+  /* line 987, ../sass/style.scss */
   #thanks {
     width: 90%;
   }
