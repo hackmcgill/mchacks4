@@ -165,8 +165,8 @@
                 <section>
                     <ul>
                         <li>
-                            <textarea id="reason" name="reason" form="mcform" maxlength="300"></textarea>
-                            <label for="reason">Suggestions? (max 300 chars)</label>
+                            <textarea id="suggestions" name="suggestions" form="mcform" maxlength="300"></textarea>
+                            <label for="suggestions">Suggestions? (max 300 chars)</label>
                         </li>
                     </ul>
 
@@ -258,7 +258,7 @@
         }
         if(!document.getElementById("fupload").value != "") {
             $("#file_fail").show();
-            document.getElementById("fupload").accept = ".pdf, .doc, .docx, image/*";
+            document.getElementById("fupload").accept = ".pdf";
             return false;
         }
         $('[required]').each(function() {
