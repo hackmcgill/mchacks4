@@ -168,7 +168,7 @@
 
                 <section style="margin-top: 50px">
 
-                    <ul style="height: 90px;">
+                    <ul style="height: 90px; max-width: 314px;">
                         <li>
                             <div class="g-recaptcha" style="margin-top:2px; margin-left: 17px" data-sitekey="6LcHLgoUAAAAAD7d1TH7_77LWwx_6UuqczO0vA4i"></div>
                         </li>      
@@ -231,7 +231,6 @@
     <script>
     function validateCaptcha() {
         var v = grecaptcha.getResponse();
-        var c = 
         if(v.length == 0)
         {
             $("#captcha").show();
