@@ -207,11 +207,11 @@
 
                 <ul style="border: none">
                     <li>
-                    <button id="submit-app" type="submit" form="mcform">Submit My Application</button>
                     <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
                     <span id="check_conduct" style="display: none"/>You must agree to the McHacks code of conduct.</span>
                     <span id="safari_fail" style="display: none"/>You are missing one or more required fields.</span>
                     <span id="file_fail" style="display: none"/>You must upload a resume above to continue.<br>&nbsp;&nbsp;&nbsp;If you don't have a resume on hand, upload a puppy &#128054;<br>&nbsp;&nbsp;&nbsp;If you don't like puppies (?) surprise us.</span>
+                    <button id="submit-app" type="submit" form="mcform">Submit My Application</button>
                     </li>
                 </ul>
             </section>
@@ -241,6 +241,7 @@
         $("#check_conduct").hide();
         $("#file_fail").hide();
         var v = grecaptcha.getResponse();
+        var errors = 1;
         if(v.length == 0)
         {
             $("#captcha").show();
@@ -258,11 +259,17 @@
         $('[required]').each(function() {
             if ($(this).val() == '') {
                 $("#safari_fail").show();
+                errors = 1;
                 return false;
             }
+            else {
+                errors = 0;
+            }
         });
-            
-        return true;
+
+        if (errors = 0) {
+            return true;
+        }
     }
 
     function initialize() {
