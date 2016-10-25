@@ -363,7 +363,18 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   max-width: 100%;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
+#pressleft a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+/* line 335, ../sass/style.scss */
+#gazbot p {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 340, ../sass/style.scss */
 #pressright {
   display: inline-block;
   float: right;
@@ -376,7 +387,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   text-align: center;
 }
 
-/* line 343, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 #cbctop {
   /*display: inline-block;*/
   height: 60%;
@@ -386,7 +397,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   /*backgroundhttps://127.0.0.1:8000/-color: red;*/
 }
 
-/* line 351, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 #cbctop img {
   display: block;
   margin-right: auto;
@@ -395,12 +406,19 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   max-width: 100%;
 }
 
-/* line 359, ../sass/style.scss */
+/* line 368, ../sass/style.scss */
 #cbcbot p {
   margin-top: 21px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 363, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
+#pressright a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+/* line 378, ../sass/style.scss */
 #video {
   display: block;
   width: 100%;
@@ -412,7 +430,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   margin-top: 10%;
 }
 
-/* line 374, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 #youtube {
   margin-top: 20px;
   width: 50%;
@@ -420,20 +438,20 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   margin-right: auto;
 }
 
-/* line 381, ../sass/style.scss */
+/* line 396, ../sass/style.scss */
 #video iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 386, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .horline {
   margin: auto;
   width: 90%;
   border: 2px solid black;
 }
 
-/* line 392, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 #page2 a, #page3 a {
   /*height: 3rem;*/
   /*float: left;*/
@@ -441,7 +459,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   padding: 1rem 0;
 }
 
-/* line 399, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 img {
   zoom: 2;
   max-height: 100%;
@@ -455,7 +473,7 @@ img {
   margin-bottom: auto;
 }
 
-/* line 413, ../sass/style.scss */
+/* line 428, ../sass/style.scss */
 .giga, .mega, .kilo, .byte, .nibble {
   display: inline-block;
   margin-top: 1rem;
@@ -464,12 +482,12 @@ img {
   width: 100%;
   height: 100%;
 }
-/* line 420, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 .giga a, .mega a, .kilo a, .byte a, .nibble a {
   position: relative;
 }
 
-/* line 425, ../sass/style.scss */
+/* line 440, ../sass/style.scss */
 #sponsor_bg {
   width: 90%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -477,78 +495,78 @@ img {
   border: 2px solid black;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 #page2 .giga a {
   height: 8rem;
   width: 100%;
 }
 
-/* line 436, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 #page2 .mega a {
   height: 8rem;
   width: 40%;
 }
 
-/* line 441, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 #page2 .kilo a {
   height: 4rem;
   width: 33%;
 }
 
-/* line 446, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 #page2 .byte a {
   height: 3rem;
   width: 20%;
 }
 
-/* line 450, ../sass/style.scss */
+/* line 465, ../sass/style.scss */
 #page2 .nibble a {
   height: 2rem;
   width: 15%;
 }
 
-/* line 455, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 #page3 .giga a {
   height: 8rem;
   width: 100%;
 }
 
-/* line 459, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 #page3 .mega a {
   height: 5rem;
   width: 33%;
 }
 
-/* line 464, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 #page3 .kilo a {
   height: 4rem;
   width: 33%;
 }
 
-/* line 469, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 #page3 .byte a {
   height: 3rem;
   width: 20%;
 }
 
-/* line 473, ../sass/style.scss */
+/* line 488, ../sass/style.scss */
 #page3 .nibble a {
   height: 2rem;
   width: 15%;
 }
 
-/* line 478, ../sass/style.scss */
+/* line 493, ../sass/style.scss */
 #hardware li {
   color: #cc4f55;
 }
 
-/* line 481, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 #hardware li span {
   color: black;
   /* text color */
 }
 
-/* line 485, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 #hardware a {
   margin: 0;
   padding: 0;
@@ -556,7 +574,7 @@ img {
   text-decoration: none;
 }
 
-/* line 492, ../sass/style.scss */
+/* line 507, ../sass/style.scss */
 #hardware a:hover {
   margin: 0;
   padding: 0;
@@ -564,12 +582,12 @@ img {
   text-decoration: underline;
 }
 
-/* line 499, ../sass/style.scss */
+/* line 514, ../sass/style.scss */
 #faqs li {
   list-style-type: none;
 }
 
-/* line 503, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 #footer {
   font-family: Brandon;
   text-align: center;
@@ -579,7 +597,7 @@ img {
       padding:0;*/
 }
 
-/* line 512, ../sass/style.scss */
+/* line 527, ../sass/style.scss */
 #footer a {
   margin: 10px;
   display: inline-block;
@@ -590,24 +608,24 @@ img {
       margin-right: 150px;*/
 }
 
-/* line 521, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 #footer p {
   color: white;
 }
 
-/* line 525, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 #sched {
   height: 100%;
 }
 
-/* line 529, ../sass/style.scss */
+/* line 544, ../sass/style.scss */
 body {
   margin: 0;
   width: 100%;
   height: 100%;
 }
 
-/* line 534, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 #sched_center {
   margin-right: auto;
   margin-left: auto;
@@ -615,7 +633,7 @@ body {
   height: 300%;
 }
 
-/* line 542, ../sass/style.scss */
+/* line 557, ../sass/style.scss */
 iframe {
   width: 100%;
   height: 100%;
@@ -623,7 +641,7 @@ iframe {
   overflow-Y: hidden;
 }
 
-/* line 549, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 #pinboard {
   margin-top: 50px;
   height: 600px;
@@ -631,14 +649,14 @@ iframe {
   /*visibility: hidden;*/
 }
 
-/* line 555, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 #pinboard iframe {
   max-width: 1200px;
 }
 
 /* glitchy
  * stolen from: https://codepen.io/lbebber/pen/ypgql */
-/* line 562, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .glitch {
   position: relative;
   margin: 0 auto;
@@ -646,70 +664,70 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(64px, 9999px, 17px, 0);
+    clip: rect(5px, 9999px, 95px, 0);
   }
   5% {
-    clip: rect(40px, 9999px, 54px, 0);
+    clip: rect(67px, 9999px, 44px, 0);
   }
   10% {
-    clip: rect(81px, 9999px, 70px, 0);
+    clip: rect(20px, 9999px, 74px, 0);
   }
   15% {
-    clip: rect(60px, 9999px, 48px, 0);
+    clip: rect(44px, 9999px, 39px, 0);
   }
   20% {
-    clip: rect(60px, 9999px, 17px, 0);
+    clip: rect(22px, 9999px, 66px, 0);
   }
   25% {
-    clip: rect(22px, 9999px, 6px, 0);
+    clip: rect(71px, 9999px, 63px, 0);
   }
   30% {
-    clip: rect(79px, 9999px, 29px, 0);
+    clip: rect(20px, 9999px, 40px, 0);
   }
   35% {
-    clip: rect(75px, 9999px, 81px, 0);
+    clip: rect(1px, 9999px, 41px, 0);
   }
   40% {
-    clip: rect(67px, 9999px, 18px, 0);
+    clip: rect(95px, 9999px, 91px, 0);
   }
   45% {
-    clip: rect(71px, 9999px, 90px, 0);
+    clip: rect(79px, 9999px, 93px, 0);
   }
   50% {
-    clip: rect(97px, 9999px, 41px, 0);
+    clip: rect(33px, 9999px, 54px, 0);
   }
   55% {
-    clip: rect(95px, 9999px, 92px, 0);
+    clip: rect(82px, 9999px, 95px, 0);
   }
   60% {
-    clip: rect(91px, 9999px, 37px, 0);
+    clip: rect(4px, 9999px, 61px, 0);
   }
   65% {
-    clip: rect(96px, 9999px, 66px, 0);
+    clip: rect(71px, 9999px, 100px, 0);
   }
   70% {
-    clip: rect(84px, 9999px, 70px, 0);
+    clip: rect(56px, 9999px, 56px, 0);
   }
   75% {
-    clip: rect(85px, 9999px, 42px, 0);
+    clip: rect(33px, 9999px, 86px, 0);
   }
   80% {
-    clip: rect(42px, 9999px, 32px, 0);
+    clip: rect(1px, 9999px, 35px, 0);
   }
   85% {
-    clip: rect(18px, 9999px, 90px, 0);
+    clip: rect(68px, 9999px, 27px, 0);
   }
   90% {
-    clip: rect(27px, 9999px, 81px, 0);
+    clip: rect(24px, 9999px, 89px, 0);
   }
   95% {
-    clip: rect(39px, 9999px, 74px, 0);
+    clip: rect(96px, 9999px, 91px, 0);
   }
   100% {
-    clip: rect(94px, 9999px, 96px, 0);
+    clip: rect(74px, 9999px, 32px, 0);
   }
 }
-/* line 574, ../sass/style.scss */
+/* line 589, ../sass/style.scss */
 .glitch:after {
   content: attr(data-text);
   position: absolute;
@@ -724,70 +742,70 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(34px, 9999px, 25px, 0);
+    clip: rect(40px, 9999px, 55px, 0);
   }
   5% {
-    clip: rect(13px, 9999px, 33px, 0);
+    clip: rect(25px, 9999px, 100px, 0);
   }
   10% {
-    clip: rect(79px, 9999px, 1px, 0);
+    clip: rect(23px, 9999px, 58px, 0);
   }
   15% {
-    clip: rect(11px, 9999px, 84px, 0);
+    clip: rect(98px, 9999px, 47px, 0);
   }
   20% {
-    clip: rect(93px, 9999px, 35px, 0);
+    clip: rect(22px, 9999px, 83px, 0);
   }
   25% {
-    clip: rect(81px, 9999px, 4px, 0);
+    clip: rect(87px, 9999px, 24px, 0);
   }
   30% {
-    clip: rect(19px, 9999px, 28px, 0);
+    clip: rect(56px, 9999px, 62px, 0);
   }
   35% {
-    clip: rect(85px, 9999px, 62px, 0);
+    clip: rect(28px, 9999px, 27px, 0);
   }
   40% {
-    clip: rect(63px, 9999px, 12px, 0);
+    clip: rect(40px, 9999px, 74px, 0);
   }
   45% {
-    clip: rect(66px, 9999px, 82px, 0);
+    clip: rect(86px, 9999px, 4px, 0);
   }
   50% {
-    clip: rect(21px, 9999px, 91px, 0);
+    clip: rect(75px, 9999px, 1px, 0);
   }
   55% {
-    clip: rect(59px, 9999px, 68px, 0);
+    clip: rect(95px, 9999px, 61px, 0);
   }
   60% {
-    clip: rect(52px, 9999px, 20px, 0);
+    clip: rect(29px, 9999px, 29px, 0);
   }
   65% {
-    clip: rect(89px, 9999px, 46px, 0);
+    clip: rect(96px, 9999px, 36px, 0);
   }
   70% {
-    clip: rect(5px, 9999px, 74px, 0);
+    clip: rect(36px, 9999px, 55px, 0);
   }
   75% {
-    clip: rect(10px, 9999px, 20px, 0);
+    clip: rect(45px, 9999px, 76px, 0);
   }
   80% {
-    clip: rect(74px, 9999px, 32px, 0);
+    clip: rect(37px, 9999px, 86px, 0);
   }
   85% {
-    clip: rect(2px, 9999px, 23px, 0);
+    clip: rect(87px, 9999px, 66px, 0);
   }
   90% {
-    clip: rect(69px, 9999px, 58px, 0);
+    clip: rect(80px, 9999px, 94px, 0);
   }
   95% {
-    clip: rect(19px, 9999px, 41px, 0);
+    clip: rect(8px, 9999px, 11px, 0);
   }
   100% {
-    clip: rect(68px, 9999px, 94px, 0);
+    clip: rect(20px, 9999px, 19px, 0);
   }
 }
-/* line 594, ../sass/style.scss */
+/* line 609, ../sass/style.scss */
 .glitch:before {
   content: attr(data-text);
   position: absolute;
@@ -801,12 +819,12 @@ iframe {
 }
 
 /* Registration */
-/* line 607, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 .bird-reg#birdbox {
   margin-top: 50px;
 }
 
-/* line 611, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 #application {
   width: 45%;
   margin: auto;
@@ -817,7 +835,7 @@ iframe {
   height: 900px;
 }
 
-/* line 621, ../sass/style.scss */
+/* line 636, ../sass/style.scss */
 #mcform input {
   font-size: 1.2em;
   width: 150px;
@@ -825,28 +843,28 @@ iframe {
   padding: 4px;
 }
 
-/* line 628, ../sass/style.scss */
+/* line 643, ../sass/style.scss */
 .form-input {
   float: left;
 }
 
-/* line 632, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 .form-input:not(:first-child) {
   margin-left: 10%;
 }
 
-/* line 636, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 #mcform label {
   display: block;
 }
 
 /* form css */
-/* line 646, ../sass/style.scss */
+/* line 661, ../sass/style.scss */
 form, ul, li, input, label {
   box-sizing: border-box;
 }
 
-/* line 649, ../sass/style.scss */
+/* line 664, ../sass/style.scss */
 #mcform h1 {
   color: #333;
   font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
@@ -855,7 +873,7 @@ form, ul, li, input, label {
   text-align: center;
 }
 
-/* line 657, ../sass/style.scss */
+/* line 672, ../sass/style.scss */
 #mcform ul {
   background-color: #fffdfa;
   border: 6px inset rgba(41, 32, 75, 0.7);
@@ -865,24 +883,24 @@ form, ul, li, input, label {
   max-width: 350px;
 }
 
-/* line 666, ../sass/style.scss */
+/* line 681, ../sass/style.scss */
 #mcform ul:last-child {
   border: none;
 }
 
-/* line 670, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 #mcform li {
   border-bottom: 1px solid #c8c8c8;
   margin-top: -1px;
   position: relative;
 }
 
-/* line 676, ../sass/style.scss */
+/* line 691, ../sass/style.scss */
 #mcform li:last-child {
   border-bottom: none;
 }
 
-/* line 680, ../sass/style.scss */
+/* line 695, ../sass/style.scss */
 #mcform label {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -891,14 +909,14 @@ form, ul, li, input, label {
   left: 10px;
   text-transform: uppercase;
 }
-/* line 687, ../sass/style.scss */
+/* line 702, ../sass/style.scss */
 .active #mcform label, input:focus + #mcform label {
   color: #0074D9;
   font-weight: bold;
   letter-spacing: -0.01em;
 }
 
-/* line 693, ../sass/style.scss */
+/* line 708, ../sass/style.scss */
 #mcform input, input:focus {
   background-color: transparent;
   border: none;
@@ -911,19 +929,19 @@ form, ul, li, input, label {
   width: 100%;
 }
 
-/* line 704, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 #mcform input:focus {
   color: #000;
   background-color: #eeeeee;
   box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
 }
 
-/* line 709, ../sass/style.scss */
+/* line 724, ../sass/style.scss */
 #mcform label, input {
   transition: color 0.4s ease, background-color 0.1s ease-in-out;
 }
 
-/* line 713, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 #mcform select {
   margin: 35px 10px 10px 10px;
   height: 30px;
@@ -934,12 +952,12 @@ form, ul, li, input, label {
   outline: none;
 }
 
-/* line 723, ../sass/style.scss */
+/* line 738, ../sass/style.scss */
 #reason {
   resize: none;
 }
 
-/* line 727, ../sass/style.scss */
+/* line 742, ../sass/style.scss */
 #mcform textarea {
   width: 94%;
   height: 105px;
@@ -954,26 +972,26 @@ form, ul, li, input, label {
   margin-bottom: -5px;
 }
 
-/* line 741, ../sass/style.scss */
+/* line 756, ../sass/style.scss */
 #mcform textarea:focus {
   color: #000;
   background-color: #eeeeee;
   box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
 }
 
-/* line 747, ../sass/style.scss */
+/* line 762, ../sass/style.scss */
 #mcform #fupload {
   font-size: 1em;
   text-align: justify;
   padding-top: 35px;
 }
 
-/* line 753, ../sass/style.scss */
+/* line 768, ../sass/style.scss */
 input:focus#fupload {
   background-color: transparent !important;
 }
 
-/* line 757, ../sass/style.scss */
+/* line 772, ../sass/style.scss */
 #app-header {
   width: 300px;
   margin: auto;
@@ -983,7 +1001,7 @@ input:focus#fupload {
   text-align: center;
 }
 
-/* line 767, ../sass/style.scss */
+/* line 782, ../sass/style.scss */
 #submit-app {
   border: none;
   background-color: #513C59;
@@ -999,12 +1017,12 @@ input:focus#fupload {
   border: 3px solid white;
 }
 
-/* line 783, ../sass/style.scss */
+/* line 798, ../sass/style.scss */
 #submit-app:hover {
   background-color: #513C59;
 }
 
-/* line 787, ../sass/style.scss */
+/* line 802, ../sass/style.scss */
 #requiredField {
   width: 300px;
   margin: auto;
@@ -1014,12 +1032,12 @@ input:focus#fupload {
   text-align: center;
 }
 
-/* line 797, ../sass/style.scss */
+/* line 812, ../sass/style.scss */
 #required {
   color: #EE3E33;
 }
 
-/* line 801, ../sass/style.scss */
+/* line 816, ../sass/style.scss */
 #thanks {
   width: 45%;
   margin: auto;
@@ -1030,7 +1048,7 @@ input:focus#fupload {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 812, ../sass/style.scss */
+/* line 827, ../sass/style.scss */
 #code_conduct {
   width: 45%;
   margin: auto;
@@ -1041,19 +1059,19 @@ input:focus#fupload {
   margin-bottom: 40px;
 }
 
-/* line 824, ../sass/style.scss */
+/* line 839, ../sass/style.scss */
 #hackathon_conduct {
   text-align: left;
   margin-left: 20px;
 }
 
-/* line 829, ../sass/style.scss */
+/* line 844, ../sass/style.scss */
 #mcform #allergies {
   margin-top: 60px;
   height: 110px;
 }
 
-/* line 834, ../sass/style.scss */
+/* line 849, ../sass/style.scss */
 #captcha {
   color: red;
   padding: 10px;
@@ -1061,7 +1079,7 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 841, ../sass/style.scss */
+/* line 856, ../sass/style.scss */
 #check_conduct {
   color: red;
   padding: 10px;
@@ -1069,7 +1087,7 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 848, ../sass/style.scss */
+/* line 863, ../sass/style.scss */
 #file_fail {
   color: red;
   padding: 10px;
@@ -1077,17 +1095,17 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 855, ../sass/style.scss */
+/* line 870, ../sass/style.scss */
 #submit_sec ul {
   border: none;
 }
 
-/* line 859, ../sass/style.scss */
+/* line 874, ../sass/style.scss */
 .squaredFour {
   width: 20px;
   position: relative;
 }
-/* line 862, ../sass/style.scss */
+/* line 877, ../sass/style.scss */
 .squaredFour p {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -1100,7 +1118,7 @@ input:focus#fupload {
   text-align: left;
   margin: 0;
 }
-/* line 874, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .squaredFour label {
   width: 15px;
   height: 15px;
@@ -1113,7 +1131,7 @@ input:focus#fupload {
   border-radius: 4px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 885, ../sass/style.scss */
+/* line 900, ../sass/style.scss */
 .squaredFour label:after {
   content: '';
   width: 9px;
@@ -1128,31 +1146,31 @@ input:focus#fupload {
   opacity: 0;
   transform: rotate(-45deg);
 }
-/* line 899, ../sass/style.scss */
+/* line 914, ../sass/style.scss */
 .squaredFour label:hover::after {
   opacity: 0.5;
 }
-/* line 903, ../sass/style.scss */
+/* line 918, ../sass/style.scss */
 .squaredFour input[type=checkbox] {
   visibility: hidden;
 }
-/* line 905, ../sass/style.scss */
+/* line 920, ../sass/style.scss */
 .squaredFour input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 925, ../sass/style.scss */
+  /* line 940, ../sass/style.scss */
   #sponsor_text {
     display: none;
   }
 
-  /* line 929, ../sass/style.scss */
+  /* line 944, ../sass/style.scss */
   #faqs {
     width: 80%;
   }
 
-  /* line 933, ../sass/style.scss */
+  /* line 948, ../sass/style.scss */
   #buttonbox {
     width: 62%;
     left: 19%;
@@ -1160,17 +1178,17 @@ input:focus#fupload {
     line-height: 3em;
   }
 
-  /* line 940, ../sass/style.scss */
+  /* line 955, ../sass/style.scss */
   #registerbutton {
     width: 100%;
   }
 
-  /* line 944, ../sass/style.scss */
+  /* line 959, ../sass/style.scss */
   #sponsorbutton {
     width: 100%;
   }
 
-  /* line 948, ../sass/style.scss */
+  /* line 963, ../sass/style.scss */
   #title_container {
     height: 57%;
     width: 65%;
@@ -1178,49 +1196,49 @@ input:focus#fupload {
     left: 18%;
   }
 
-  /* line 955, ../sass/style.scss */
+  /* line 970, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 959, ../sass/style.scss */
+  /* line 974, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 964, ../sass/style.scss */
+  /* line 979, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 969, ../sass/style.scss */
+  /* line 984, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 974, ../sass/style.scss */
+  /* line 989, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 977, ../sass/style.scss */
+  /* line 992, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
   }
 
-  /* line 982, ../sass/style.scss */
+  /* line 997, ../sass/style.scss */
   #application {
     width: 100%;
     padding: 0px;
   }
 
-  /* line 987, ../sass/style.scss */
+  /* line 1002, ../sass/style.scss */
   #thanks {
     width: 90%;
   }

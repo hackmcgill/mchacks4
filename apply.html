@@ -17,10 +17,11 @@
     </head>
 
     <body>
-
-            <div class="bird-reg" id="birdbox">
-                <img id="bird_logo" src="images/logo__grey__720.png" alt="Imagine a bird here">
-            </div> 
+            <a href="index.html">
+                <div class="bird-reg" id="birdbox">
+                    <img id="bird_logo" src="images/logo__grey__720.png" alt="Imagine a bird here">
+                </div> 
+            </a>
 
         <div id="app-header">
             <h1>Apply to McHacks</h1>
@@ -28,7 +29,7 @@
         </div>
 
         <div id="application">
-            <form id="mcform" action='https://www.getform.org/u/e46521cb-df62-41e8-b7ce-7d741f612a34' enctype="multipart/form-data" method="POST" onsubmit="return validateCaptcha();">
+            <form id="mcform" action="https://getform.org/u/4c26b0f9-d4a7-4959-8551-84fa91209ada" enctype="multipart/form-data" method="POST" onsubmit="return validateCaptcha();">
                 <section>
                     <ul>
                         <li>
@@ -135,7 +136,7 @@
                             <label for="site">Personal Webpage</label>
                         </li>
                         <li>
-                            <input id="fupload" type="file" accept=".pdf" name="file">
+                            <input id="fupload" type="file" accept=".pdf, .doc, .docx" name="file">
                             <label for="file" id="file_msg">Upload Resume (Max 2MB PDF)<span id="required">*</span></label>
                         </li>
                     </ul>
@@ -159,7 +160,7 @@
                     <ul>
                         <li>
                             <textarea id="reason" name="reason" form="mcform" maxlength="140"></textarea>
-                            <label for="reason">Event suggestions? (max 140)</label>
+                            <label for="reason">Suggestions? (max 140 chars)</label>
                         </li>
                     </ul>
 
@@ -169,17 +170,6 @@
             </form>
 
             <div id="mcform">
-
-            <section style="margin-top: 100px">
-
-                    <ul style="height: 88px; max-width: 314px;">
-                        <li>
-                            <div class="g-recaptcha" style="margin-top:1px;" data-sitekey="6LcHLgoUAAAAAD7d1TH7_77LWwx_6UuqczO0vA4i"></div>
-                        </li>      
-                    </ul>
-
-                    <br style="clear:both;" />
-                </section>
 
             <section>
 
@@ -200,6 +190,17 @@
                 <br style="clear:both;" />
             </section>
 
+            <section>
+
+                    <ul style="height: 88px; max-width: 314px;">
+                        <li>
+                            <div class="g-recaptcha" style="margin-top:1px;" data-sitekey="6LcHLgoUAAAAAD7d1TH7_77LWwx_6UuqczO0vA4i"></div>
+                        </li>      
+                    </ul>
+
+                    <br style="clear:both;" />
+                </section>
+
 
             <section style="margin-bottom: 59px;">
 
@@ -208,7 +209,7 @@
                     <button id="submit-app" type="submit" form="mcform">Submit My Application</button>
                     <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
                     <span id="check_conduct" style="display: none"/>You must agree to the McHacks code of conduct.</span>
-                    <span id="file_fail" style="display: none"/>You must upload a resume above to continue.<br>&nbsp;&nbsp;&nbsp;If you don't have a resume, upload a puppy &#128054;<br>&nbsp;&nbsp;&nbsp;If you don't like puppies (?) surprise us.</span>
+                    <span id="file_fail" style="display: none"/>You must upload a resume above to continue.<br>&nbsp;&nbsp;&nbsp;If you don't have a resume on hand, upload a puppy &#128054;<br>&nbsp;&nbsp;&nbsp;If you don't like puppies (?) surprise us.</span>
                     </li>
                 </ul>
             </section>
@@ -250,7 +251,7 @@
         }
         if(!document.getElementById("fupload").value != "") {
             $("#file_fail").show();
-            document.getElementById("fupload").accept = ".pdf, image/*";
+            document.getElementById("fupload").accept = ".pdf, .doc, .docx, image/*";
             return false;
         }
         else

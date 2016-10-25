@@ -327,6 +327,15 @@ div {
     max-width: 100%;
 }
 
+#pressleft a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+#gazbot p {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 
 #pressright{
     display: inline-block;
@@ -358,6 +367,12 @@ div {
 
 #cbcbot p {
     margin-top: 21px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#pressright a {
+    text-decoration: none;
+    color: #3c3c3c;
 }
 
 #video{
