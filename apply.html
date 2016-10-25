@@ -75,9 +75,6 @@
                         <li>
                             <select name="grad_year" id="grad_year" required>
                                             <option value="">Select year</option>
-                                            <option value="2011">2011</option>
-                                            <option value="2012">2012</option>
-                                            <option value="2013">2013</option>
                                             <option value="2014">2014</option>
                                             <option value="2015">2015</option>
                                             <option value="2016">2016</option>  
@@ -137,6 +134,14 @@
                             <label for="site">Personal Webpage</label>
                         </li>
                         <li>
+                            <input type="url" name="github">
+                            <label for="github">GitHub</label>
+                        </li>
+                        <li>
+                            <input type="url" name="linkedin">
+                            <label for="linkedin">LinkedIn</label>
+                        </li>
+                        <li>
                             <input id="fupload" type="file" accept=".pdf, .doc, .docx" name="file">
                             <label for="file" id="file_msg">Upload Resume (Max 2MB PDF)<span id="required">*</span></label>
                         </li>
@@ -149,8 +154,8 @@
                 <section>
                     <ul>
                         <li>
-                            <textarea id="reason" name="reason" form="mcform" maxlength="140" required></textarea>
-                            <label for="reason">Why McHacks? (max 140 chars) <span id="required">*</span></label>
+                            <textarea id="reason" name="reason" form="mcform" maxlength="300" required></textarea>
+                            <label for="reason">Why McHacks? (max 300 chars) <span id="required">*</span></label>
                         </li>
                     </ul>
 
@@ -160,8 +165,8 @@
                 <section>
                     <ul>
                         <li>
-                            <textarea id="reason" name="reason" form="mcform" maxlength="140"></textarea>
-                            <label for="reason">Suggestions? (max 140 chars)</label>
+                            <textarea id="reason" name="reason" form="mcform" maxlength="300"></textarea>
+                            <label for="reason">Suggestions? (max 300 chars)</label>
                         </li>
                     </ul>
 

@@ -741,7 +741,7 @@ form, ul, li, input, label {
 
 #mcform textarea {
     width:94%;
-    height:105px;
+    height:205px;
     background-color: transparent;
     border: none;
     color: darken($color, 15);
@@ -952,7 +952,7 @@ input:focus#fupload {
 }
 
 
-@media only screen and (orientation:portrait) {
+@media only screen and (orientation:portrait), screen and (max-width:1040px) {
     // #page1 {
     //     background:
     //     url('../images/mobile_layer.png') no-repeat top,
