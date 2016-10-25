@@ -867,6 +867,13 @@ input:focus#fupload {
     font-size: 14px;
 }
 
+#safari_fail {
+    color: red;
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
 #submit_sec ul {
     border: none;
 }
@@ -881,7 +888,7 @@ input:focus#fupload {
     top: 10px;
     left: 30px;
     text-transform: uppercase;
-    font-size: 0.79em;
+    font-size: 0.78em;
     width: 400px;
     text-align: left;
     margin: 0;

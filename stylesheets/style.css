@@ -665,67 +665,67 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(62px, 9999px, 33px, 0);
+    clip: rect(9px, 9999px, 31px, 0);
   }
   5% {
-    clip: rect(67px, 9999px, 19px, 0);
+    clip: rect(74px, 9999px, 49px, 0);
   }
   10% {
-    clip: rect(56px, 9999px, 17px, 0);
+    clip: rect(57px, 9999px, 92px, 0);
   }
   15% {
-    clip: rect(20px, 9999px, 56px, 0);
+    clip: rect(96px, 9999px, 5px, 0);
   }
   20% {
-    clip: rect(96px, 9999px, 92px, 0);
+    clip: rect(94px, 9999px, 3px, 0);
   }
   25% {
-    clip: rect(87px, 9999px, 2px, 0);
+    clip: rect(89px, 9999px, 72px, 0);
   }
   30% {
-    clip: rect(98px, 9999px, 14px, 0);
+    clip: rect(29px, 9999px, 29px, 0);
   }
   35% {
-    clip: rect(67px, 9999px, 70px, 0);
+    clip: rect(67px, 9999px, 71px, 0);
   }
   40% {
-    clip: rect(21px, 9999px, 36px, 0);
+    clip: rect(84px, 9999px, 82px, 0);
   }
   45% {
-    clip: rect(9px, 9999px, 17px, 0);
+    clip: rect(42px, 9999px, 56px, 0);
   }
   50% {
-    clip: rect(67px, 9999px, 21px, 0);
+    clip: rect(67px, 9999px, 64px, 0);
   }
   55% {
-    clip: rect(68px, 9999px, 97px, 0);
+    clip: rect(14px, 9999px, 39px, 0);
   }
   60% {
-    clip: rect(57px, 9999px, 62px, 0);
+    clip: rect(41px, 9999px, 78px, 0);
   }
   65% {
-    clip: rect(52px, 9999px, 90px, 0);
+    clip: rect(23px, 9999px, 40px, 0);
   }
   70% {
-    clip: rect(27px, 9999px, 93px, 0);
+    clip: rect(86px, 9999px, 3px, 0);
   }
   75% {
-    clip: rect(23px, 9999px, 50px, 0);
+    clip: rect(45px, 9999px, 52px, 0);
   }
   80% {
-    clip: rect(61px, 9999px, 87px, 0);
+    clip: rect(24px, 9999px, 12px, 0);
   }
   85% {
-    clip: rect(11px, 9999px, 4px, 0);
+    clip: rect(36px, 9999px, 99px, 0);
   }
   90% {
-    clip: rect(80px, 9999px, 60px, 0);
+    clip: rect(7px, 9999px, 14px, 0);
   }
   95% {
-    clip: rect(91px, 9999px, 20px, 0);
+    clip: rect(96px, 9999px, 25px, 0);
   }
   100% {
-    clip: rect(32px, 9999px, 74px, 0);
+    clip: rect(34px, 9999px, 63px, 0);
   }
 }
 /* line 590, ../sass/style.scss */
@@ -743,67 +743,67 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(42px, 9999px, 67px, 0);
+    clip: rect(82px, 9999px, 18px, 0);
   }
   5% {
-    clip: rect(18px, 9999px, 25px, 0);
+    clip: rect(88px, 9999px, 28px, 0);
   }
   10% {
-    clip: rect(95px, 9999px, 72px, 0);
+    clip: rect(11px, 9999px, 74px, 0);
   }
   15% {
-    clip: rect(68px, 9999px, 24px, 0);
+    clip: rect(92px, 9999px, 89px, 0);
   }
   20% {
-    clip: rect(65px, 9999px, 29px, 0);
+    clip: rect(25px, 9999px, 30px, 0);
   }
   25% {
-    clip: rect(31px, 9999px, 64px, 0);
+    clip: rect(55px, 9999px, 53px, 0);
   }
   30% {
-    clip: rect(87px, 9999px, 35px, 0);
+    clip: rect(82px, 9999px, 46px, 0);
   }
   35% {
-    clip: rect(44px, 9999px, 94px, 0);
+    clip: rect(41px, 9999px, 59px, 0);
   }
   40% {
-    clip: rect(52px, 9999px, 36px, 0);
+    clip: rect(35px, 9999px, 58px, 0);
   }
   45% {
-    clip: rect(20px, 9999px, 20px, 0);
+    clip: rect(95px, 9999px, 8px, 0);
   }
   50% {
-    clip: rect(54px, 9999px, 37px, 0);
+    clip: rect(34px, 9999px, 53px, 0);
   }
   55% {
-    clip: rect(48px, 9999px, 99px, 0);
+    clip: rect(39px, 9999px, 15px, 0);
   }
   60% {
-    clip: rect(58px, 9999px, 19px, 0);
+    clip: rect(78px, 9999px, 75px, 0);
   }
   65% {
-    clip: rect(21px, 9999px, 28px, 0);
+    clip: rect(98px, 9999px, 83px, 0);
   }
   70% {
-    clip: rect(35px, 9999px, 25px, 0);
+    clip: rect(65px, 9999px, 97px, 0);
   }
   75% {
-    clip: rect(40px, 9999px, 34px, 0);
+    clip: rect(57px, 9999px, 16px, 0);
   }
   80% {
-    clip: rect(75px, 9999px, 12px, 0);
+    clip: rect(39px, 9999px, 81px, 0);
   }
   85% {
-    clip: rect(85px, 9999px, 34px, 0);
+    clip: rect(64px, 9999px, 50px, 0);
   }
   90% {
-    clip: rect(1px, 9999px, 61px, 0);
+    clip: rect(79px, 9999px, 62px, 0);
   }
   95% {
-    clip: rect(59px, 9999px, 81px, 0);
+    clip: rect(52px, 9999px, 35px, 0);
   }
   100% {
-    clip: rect(2px, 9999px, 59px, 0);
+    clip: rect(66px, 9999px, 1px, 0);
   }
 }
 /* line 610, ../sass/style.scss */
@@ -1096,16 +1096,24 @@ input:focus#fupload {
 }
 
 /* line 870, ../sass/style.scss */
+#safari_fail {
+  color: red;
+  padding: 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+/* line 877, ../sass/style.scss */
 #submit_sec ul {
   border: none;
 }
 
-/* line 874, ../sass/style.scss */
+/* line 881, ../sass/style.scss */
 .squaredFour {
   width: 20px;
   position: relative;
 }
-/* line 877, ../sass/style.scss */
+/* line 884, ../sass/style.scss */
 .squaredFour p {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -1113,12 +1121,12 @@ input:focus#fupload {
   top: 10px;
   left: 30px;
   text-transform: uppercase;
-  font-size: 0.79em;
+  font-size: 0.78em;
   width: 400px;
   text-align: left;
   margin: 0;
 }
-/* line 889, ../sass/style.scss */
+/* line 896, ../sass/style.scss */
 .squaredFour label {
   width: 15px;
   height: 15px;
@@ -1131,7 +1139,7 @@ input:focus#fupload {
   border-radius: 4px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 900, ../sass/style.scss */
+/* line 907, ../sass/style.scss */
 .squaredFour label:after {
   content: '';
   width: 9px;
@@ -1146,20 +1154,20 @@ input:focus#fupload {
   opacity: 0;
   transform: rotate(-45deg);
 }
-/* line 914, ../sass/style.scss */
+/* line 921, ../sass/style.scss */
 .squaredFour label:hover::after {
   opacity: 0.5;
 }
-/* line 918, ../sass/style.scss */
+/* line 925, ../sass/style.scss */
 .squaredFour input[type=checkbox] {
   visibility: hidden;
 }
-/* line 920, ../sass/style.scss */
+/* line 927, ../sass/style.scss */
 .squaredFour input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
 
-/* line 926, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 #apply_container {
   font-family: Brandon;
   width: 32%;
@@ -1167,7 +1175,7 @@ input:focus#fupload {
   position: relative;
 }
 
-/* line 935, ../sass/style.scss */
+/* line 942, ../sass/style.scss */
 #thanks_container {
   width: 45%;
   margin: auto;
@@ -1179,22 +1187,22 @@ input:focus#fupload {
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 961, ../sass/style.scss */
+  /* line 968, ../sass/style.scss */
   #sponsor_text {
     display: none;
   }
 
-  /* line 965, ../sass/style.scss */
+  /* line 972, ../sass/style.scss */
   #faqs {
     width: 80%;
   }
 
-  /* line 969, ../sass/style.scss */
+  /* line 976, ../sass/style.scss */
   #code_conduct {
     width: 80%;
   }
 
-  /* line 973, ../sass/style.scss */
+  /* line 980, ../sass/style.scss */
   #buttonbox {
     width: 62%;
     left: 19%;
@@ -1202,17 +1210,17 @@ input:focus#fupload {
     line-height: 3em;
   }
 
-  /* line 980, ../sass/style.scss */
+  /* line 987, ../sass/style.scss */
   #registerbutton {
     width: 100%;
   }
 
-  /* line 984, ../sass/style.scss */
+  /* line 991, ../sass/style.scss */
   #sponsorbutton {
     width: 100%;
   }
 
-  /* line 988, ../sass/style.scss */
+  /* line 995, ../sass/style.scss */
   #title_container {
     height: 57%;
     width: 65%;
@@ -1220,59 +1228,59 @@ input:focus#fupload {
     left: 18%;
   }
 
-  /* line 995, ../sass/style.scss */
+  /* line 1002, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 999, ../sass/style.scss */
+  /* line 1006, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 1004, ../sass/style.scss */
+  /* line 1011, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1009, ../sass/style.scss */
+  /* line 1016, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1014, ../sass/style.scss */
+  /* line 1021, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 1017, ../sass/style.scss */
+  /* line 1024, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
   }
 
-  /* line 1022, ../sass/style.scss */
+  /* line 1029, ../sass/style.scss */
   #application {
     width: 100%;
     padding: 0px;
   }
 
-  /* line 1027, ../sass/style.scss */
+  /* line 1034, ../sass/style.scss */
   #thanks {
     width: 90%;
   }
 
-  /* line 1031, ../sass/style.scss */
+  /* line 1038, ../sass/style.scss */
   #thanks_container {
     width: 80%;
   }
 
-  /* line 1035, ../sass/style.scss */
+  /* line 1042, ../sass/style.scss */
   #apply_container {
     width: 80%;
     margin: auto;
@@ -1282,7 +1290,7 @@ input:focus#fupload {
     padding: 30px;
   }
 
-  /* line 1044, ../sass/style.scss */
+  /* line 1051, ../sass/style.scss */
   .squaredFour p {
     width: 300px;
     font-size: 0.5em;
@@ -1290,28 +1298,28 @@ input:focus#fupload {
     font-size: 0.7em;
   }
 
-  /* line 1051, ../sass/style.scss */
+  /* line 1058, ../sass/style.scss */
   #mcform label {
     font-size: 13px;
     text-align: left;
   }
 
-  /* line 1056, ../sass/style.scss */
+  /* line 1063, ../sass/style.scss */
   #mcform input {
     font-size: 13px;
   }
 
-  /* line 1060, ../sass/style.scss */
+  /* line 1067, ../sass/style.scss */
   #thanks_container {
     width: 80%;
   }
 
-  /* line 1064, ../sass/style.scss */
+  /* line 1071, ../sass/style.scss */
   #thanks {
     padding: 10px;
   }
 
-  /* line 1069, ../sass/style.scss */
+  /* line 1076, ../sass/style.scss */
   #rc-imageselect, .g-recaptcha {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
