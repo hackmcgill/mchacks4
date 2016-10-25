@@ -11,6 +11,7 @@
         <meta property="og:image" content="images/red_bird.png" />
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/checkbox.css" />
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     </head>
@@ -27,7 +28,7 @@
         </div>
 
         <div id="application">
-            <form id="mcform" action='https://www.getform.org/u/e46521cb-df62-41e8-b7ce-7d741f612a34' enctype="multipart/form-data" method="POST">
+            <form id="mcform" action='https://www.getform.org/u/e46521cb-df62-41e8-b7ce-7d741f612a34' enctype="multipart/form-data" method="POST" onsubmit="return validateCaptcha();">
                 <section>
                     <ul>
                         <li>
@@ -62,12 +63,31 @@
                             <label for="school">School <span id="required">*</span></label>
                         </li>
                         <li>
+                            <input id="travelField" type="text" name="travel_origin" placeholder="Enter your alternate travel origin">
+                            <label for="travel_origin">Travel origin (if different)</label>
+                        </li>
+                        <li>
                             <input type="text" name="major">
                             <label for="major">Major</label>  
                         </li>
                         <li>
-                            <input type="text" name="first_name" required>
-                            <label for="first_name">Graduation Year <span id="required">*</span></label>
+                            <select name="grad_year" id="grad_year" required>
+                                            <option value="">Select year</option>
+                                            <option value="2011">2011</option>
+                                            <option value="2012">2012</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2016">2016</option>  
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option> 
+                            </select>
+                            <label for="grad_year">Graduation Year <span id="required">*</span></label>
                         </li>
                     </ul>
 
@@ -78,16 +98,29 @@
                 <section>
                     <ul>
                         <li>
-                            <input id="travelField" type="text" name="school" placeholder="Enter your travel origin" required>
-                            <label for="school">Travelling from a different location than school?</label>
+                            <select name="shirt_size" id="shirt_size">
+                                            <option value="">Select size</option>
+                                            <option value="X-Small">X-Small</option>
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+                                            <option value="X-Large">X-Large</option>
+                            </select>
+                            <label for="shirt_size">T-Shirt Size</label>
                         </li>
                         <li>
-                            <input type="text" name="major">
-                            <label for="major">T-Shirt Size</label>  
+                            <select name="allergies" id="allergies" multiple>
+                                            <option value="Nuts">Nuts</option>
+                                            <option value="Soy">Soy</option>
+                                            <option value="Lactose">Lactose</option>
+                                            <option value="Fish">Fish</option>
+                                            <option value="Gluten">Gluten</option>
+                            </select>
+                            <label for="allergies">Allergies <br> (select all that apply with &#8984;/Ctrl)</label>
                         </li>
                         <li>
-                            <input type="text" name="first_name" required>
-                            <label for="first_name">Allergies</label>
+                            <input id="additional_allergies" type="text" name="additional_allergies" placeholder="Specify any additional allergies">
+                            <label for="additional_allergies">Additional allergies</label>
                         </li>
                     </ul>
 
@@ -103,7 +136,7 @@
                         </li>
                         <li>
                             <input id="fupload" type="file" accept=".pdf" name="file">
-                            <label for="file">Resume (PDF)</label>
+                            <label for="file">Show us your resume! (PDF Max 2MB)</label>
                         </li>
                     </ul>
 
@@ -114,7 +147,7 @@
                 <section>
                     <ul>
                         <li>
-                            <textarea id="reason" name="reason" form="mcform" maxlength="140"></textarea>
+                            <textarea id="reason" name="reason" form="mcform" maxlength="140" required></textarea>
                             <label for="reason">Why McHacks? (max 140 chars) <span id="required">*</span></label>
                         </li>
                     </ul>
@@ -122,11 +155,54 @@
                     <br style="clear:both;" />
                 </section>
 
+                <section>
+                    <ul>
+                        <li>
+                            <textarea id="reason" name="reason" form="mcform" maxlength="140"></textarea>
+                            <label for="reason">Event suggestions? (max 140)</label>
+                        </li>
+                    </ul>
+
+                    <br style="clear:both;" />
+                </section>
+
+                <section style="margin-top: 50px">
+
+                    <ul style="height: 90px;">
+                        <li>
+                            <div class="g-recaptcha" style="margin-top:2px; margin-left: 17px" data-sitekey="6LcHLgoUAAAAAD7d1TH7_77LWwx_6UuqczO0vA4i"></div>
+                        </li>       
+                    </ul>
+
+                    <br style="clear:both;" />
+                </section>
 
                 <section>
+
+                    <ul style="height: 50px; text-align: right">
+                        <li>
+                            <section title=".squaredFour">
+                            <!-- .squaredFour -->
+                            <div class="squaredFour">
+                                <input type="checkbox" required value="agreed" id="squaredFour" name="conduct"/>
+                                <label for="squaredFour"></label>
+                                <p>I agree to the McHacks <a href="conduct.html" target='_blank'>Code of Conduct</a></p>
+                            </div>
+                            <!-- end .squaredFour -->
+                            </section>
+                        </li>
+                    </ul>
+
+                    <br style="clear:both;" />
+                </section>
+
+
+                <section style="margin-bottom: 59px;">
+
                     <ul style="border: none">
                         <li>
                         <button id="submit-app" type="submit">Submit My Application</button>
+                        <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
                         </li>
                     </ul>
                 </section>
@@ -149,7 +225,22 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH7XVYKV9J5P0O6M-T_NJJ2AJjDbm9Dz4&libraries=places"
     async defer></script>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <script>
+    function validateCaptcha() {
+        var v = grecaptcha.getResponse();
+        if(v.length == 0)
+        {
+            $("#captcha").show();
+            return false;
+        }
+        else
+        {
+            return true; 
+        }
+    }
+
     function initialize() {
         var input = document.getElementById('schoolField');
         var options = {
@@ -159,13 +250,14 @@
 
         var travel = document.getElementById('travelField');
         var toptions = {
-          types: [('city')]
+          types: ['(cities)']
         };
-        var autocomplete = new google.maps.places.Autocomplete(travel, toptions);
+        var autocomplete2 = new google.maps.places.Autocomplete(travel, toptions);
 
     }
     window.onload = initialize;
     </script>
+
 
     <script>
 

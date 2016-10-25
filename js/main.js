@@ -44,13 +44,13 @@ function main() {
     // it works for both orientation.
 
     $('#mchacksbox').fitText(0.4);
-    $('#mcgillbox').fitText(1.1);
-    $('#datebox').fitText(2);
-    $('#talkbox').fitText(1.8);
+    $('#mcgillbox').fitText(0.8, 1.1);
+    $('#datebox').fitText(1, 2);
+    $('#talkbox').fitText(1, 1.8);
     $('#sponsor_text').fitText(1.8, 3.2);
-    $('#sponsorbutton').fitText(0.9);
+    $('#sponsorbutton').fitText(0.8, 0.9);
     $('#linksbutton').fitText(0.9);
-    $('#registerbutton').fitText(0.9);
+    $('#registerbutton').fitText(0.8, 0.9);
     $('#past_sponsors').fitText(1.1, 2.5);
     $('.sponsor_header').fitText(2.5);
 
