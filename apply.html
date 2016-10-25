@@ -142,7 +142,7 @@
                             <label for="linkedin">LinkedIn</label>
                         </li>
                         <li>
-                            <input id="fupload" type="file" accept=".pdf, .doc, .docx" name="file">
+                            <input id="fupload" type="file" accept=".pdf" name="file">
                             <label for="file" id="file_msg">Upload Resume (Max 2MB PDF)<span id="required">*</span></label>
                         </li>
                     </ul>
@@ -258,7 +258,7 @@
         }
         if(!document.getElementById("fupload").value != "") {
             $("#file_fail").show();
-            document.getElementById("fupload").accept = ".pdf";
+            document.getElementById("fupload").accept = ".pdf, .doc, .docx, image/*"";
             return false;
         }
         $('[required]').each(function() {
