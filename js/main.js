@@ -54,6 +54,10 @@ function main() {
     $('#past_sponsors').fitText(1.1, 2.5);
     $('.sponsor_header').fitText(2.5);
 
+    $('#app-header').fitText(1,1.8);
+
+
+
     // The bottom text looks better with two lines in portrait orientation
     var linebreak_fixer = function() {
         if(window.innerHeight > window.innerWidth){

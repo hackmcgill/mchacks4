@@ -38,6 +38,7 @@ body {
     position: absolute;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .fittext-content {
@@ -624,11 +625,10 @@ iframe{
 }
 
 #application {
-    width:45%;
+    width:100%;
     margin:auto;
     font-family: Brandon;
     text-align: justify;
-    padding: 30px;
     padding-top: 0px;
     height: 900px;
 }
@@ -770,12 +770,12 @@ input:focus#fupload {
 }
 
 #app-header{
-    width:300px;
     margin:auto;
     font-family: Brandon;
     //background-color: rgba(255, 255, 255, 0.7);
     text-align: justify;
     padding: 30px;
+    padding-top: 0px;
     text-align: center;
 }
 
@@ -923,6 +923,27 @@ input:focus#fupload {
   }    
 }
 
+#apply_container {
+    font-family: Brandon;
+    width: 32%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+#thanks_container {
+    width:45%;
+    margin:auto;
+    font-family: Brandon;
+    //background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    padding: 30px;
+    //text-align: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
 
 @media only screen and (orientation:portrait) {
     // #page1 {
@@ -945,6 +966,10 @@ input:focus#fupload {
         width: 80%;
     }
 
+    #code_conduct {
+        width: 80%
+    }
+
     #buttonbox{
         width: 62%;
         left: 19%;
@@ -963,7 +988,7 @@ input:focus#fupload {
     #title_container {
         height: 57%;
         width: 65%;
-        top: 20%;
+        top: 10%;
         left: 18%;
     }
 
@@ -1002,6 +1027,46 @@ input:focus#fupload {
     #thanks {
         width: 90%
     }
+
+    #thanks_container {
+    width: 80%;
+    }
+
+    #apply_container {
+    width:80%;
+    margin:auto;
+    font-family: Brandon;
+    margin-top:3%;
+    text-align: justify;
+    padding: 30px;
+    }
+
+    .squaredFour p {
+        width: 300px;
+        font-size: 0.5em;
+        width: 210px;
+        font-size: 0.7em;
+    }
+
+    #mcform label {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    #mcform input {
+        font-size: 13px;
+    }
+
+    #thanks_container {
+    width: 80%;
+    }
+
+    #thanks {
+        padding: 10px;
+    }
+
+    //resize captcha
+    #rc-imageselect, .g-recaptcha {transform:scale(0.80);-webkit-transform:scale(0.80);transform-origin:0 0;-webkit-transform-origin:0 0;}
 }
 
 
