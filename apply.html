@@ -171,7 +171,7 @@
                     <ul style="height: 90px;">
                         <li>
                             <div class="g-recaptcha" style="margin-top:2px; margin-left: 17px" data-sitekey="6LcHLgoUAAAAAD7d1TH7_77LWwx_6UuqczO0vA4i"></div>
-                        </li>       
+                        </li>      
                     </ul>
 
                     <br style="clear:both;" />
@@ -184,9 +184,9 @@
                             <section title=".squaredFour">
                             <!-- .squaredFour -->
                             <div class="squaredFour">
-                                <input type="checkbox" required value="agreed" id="squaredFour" name="conduct"/>
-                                <label for="squaredFour"></label>
-                                <p>I agree to the McHacks <a href="conduct.html" target='_blank'>Code of Conduct</a></p>
+                                <input type="checkbox" required value="agreed" id="conduct" name="conduct"/>
+                                <label for="conduct"></label>
+                                <p>I agree to the McHacks <a href="conduct.html" target='_blank'>Code of Conduct</a><span id="required">*</span></p>
                             </div>
                             <!-- end .squaredFour -->
                             </section>
@@ -203,6 +203,7 @@
                         <li>
                         <button id="submit-app" type="submit">Submit My Application</button>
                         <span id="captcha" style="display: none"/>You must validate the reCAPTCHA above to continue.</span>
+                        <span id="check_conduct" style="display: none"/>You must agree to the McHacks code of conduct.</span>
                         </li>
                     </ul>
                 </section>
@@ -230,9 +231,15 @@
     <script>
     function validateCaptcha() {
         var v = grecaptcha.getResponse();
+        var c = 
         if(v.length == 0)
         {
             $("#captcha").show();
+            return false;
+        }
+        if(!document.getElementById('conduct').checked)
+        {
+            $("#check_conduct").show();
             return false;
         }
         else
