@@ -119,8 +119,8 @@
                             <label for="allergies">Allergies <br> (select all that apply with &#8984;/Ctrl)</label>
                         </li>
                         <li>
-                            <input id="additional_allergies" type="text" name="additional_allergies" placeholder="Specify any additional allergies">
-                            <label for="additional_allergies">Additional allergies</label>
+                            <input id="additional_accommodations" type="text" name="additional_accommodations" placeholder="Request any additional accommodations">
+                            <label for="additional_accommodations">Additional accommodations</label>
                         </li>
                     </ul>
 
@@ -166,7 +166,7 @@
                     <br style="clear:both;" />
                 </section>
 
-                <section style="margin-top: 50px">
+<!--                 <section style="margin-top: 100px">
 
                     <ul style="height: 88px; max-width: 314px;">
                         <li>
@@ -175,7 +175,7 @@
                     </ul>
 
                     <br style="clear:both;" />
-                </section>
+                </section> -->
 
                 <section>
 
@@ -230,12 +230,14 @@
 
     <script>
     function validateCaptcha() {
-        var v = grecaptcha.getResponse();
-        if(v.length == 0)
-        {
-            $("#captcha").show();
-            return false;
-        }
+        $("#captcha").hide();
+        $("#check_conduct").hide();
+        // var v = grecaptcha.getResponse();
+        // if(v.length == 0)
+        // {
+        //     $("#captcha").show();
+        //     return false;
+        // }
         if(!document.getElementById('conduct').checked)
         {
             $("#check_conduct").show();
