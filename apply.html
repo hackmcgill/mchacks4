@@ -6,8 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="McHacks 2017" />
         <meta property="og:url" content="https://mchacks.io" />
-        <meta property="og:description" content="Canada's most exciting hackathon brought to you by McGill University! " />
-        <!-- <meta property="og:description" content="Canada's most exciting hackathon brought to you by McGill University! Registration is now open, hurry up and secure your> spot!" /> -->
+        <meta property="og:description" content="Canada's most exciting hackathon brought to you by McGill University! Registration is now open, hurry up and secure your> spot!" />
         <meta property="og:image" content="images/red_bird.png" />
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
@@ -30,7 +29,7 @@
         </div>
 
         <div id="application">
-            <form id="mcform" action="https://getsimpleform.com/messages?form_api_token=c2e97c24dd6500528b0217439057e93d" enctype="multipart/form-data" method="POST" onsubmit="return validateCaptcha();">
+            <form id="mcform" accept-charset="UTF-8" action="https://getsimpleform.com/messages?form_api_token=c2e97c24dd6500528b0217439057e93d" enctype="multipart/form-data" method="POST" onsubmit="return validateCaptcha();">
                 <input type='hidden' name='redirect_to' value='http://mchacks.io/thanks.html' />
                 <section>
                     <ul>
@@ -50,14 +49,6 @@
 
                     <br style="clear:both;" />
                 </section>
-
-<!--                 <div class="form-group">
-                    <label for="gender">Gender</label>
-                    <input type="dropdown" name="gender"> 
-
-                    <label for="race">Race</label>
-                    <input type="dropdown" name="race">
-                </div> -->
 
                 <section>
                     <ul>
@@ -138,8 +129,6 @@
                     <br style="clear:both;" />
 
                 </section>
-
-
 
                 <section>
                     <ul>
@@ -335,30 +324,6 @@
             height: window.innerHeight
         });
         document.body.style['background-image'] = 'url(' + pattern.png() + ')';
-
-        // var page1 = document.getElementById('page1');
-        // var dimensions = page1.getClientRects()[0];
-
-        // var pattern = Trianglify({
-        //     x_colors: ['#58445C', '#8B013D', '#972E4C', '#DA7E6F', '#E87879', '#DB7871', '#85013A', '#844556', '#423843'],
-        //     y_colors: 'match_x',
-        //     cell_size: 130,
-        //     variance: 1,
-        //     width: dimensions.width,
-        //     height: dimensions.height,
-        // });
-
-        // page1.appendChild(pattern.canvas());
-
-
-        // var t = new Trianglify({
-        //     x_colors: ['#58445C', '#8B013D', '#972E4C', '#DA7E6F', '#E87879', '#DB7871', '#85013A', '#844556', '#423843'],
-        //     y_colors: 'match_x',
-        //     noiseIntensity: 0,
-        //     cellsize: 130});
-        // var pattern = t.generate(document.getElementById("page1").clientWidth, document.getElementById("page1").clientHeight);
-        // document.getElementById("page1").appendChild(pattern.canvas());
-        // document.getElementById("page1").setAttribute('style', 'background-image: '+pattern.dataUrl);
     </script>
 
 </body>
