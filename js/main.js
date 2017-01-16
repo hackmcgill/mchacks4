@@ -50,7 +50,8 @@ function main() {
     $('#sponsor_text').fitText(1.8, 3.2);
     $('#sponsorbutton').fitText(0.8, 0.9);
     $('#linksbutton').fitText(0.9);
-    $('#registerbutton').fitText(0.8, 0.9);
+    $('#schedulebutton').fitText(0.8, 0.9);
+    $('#applybutton').fitText(0.8, 0.9);
     $('#past_sponsors').fitText(1.1, 2.5);
     $('.sponsor_header').fitText(2.5);
 
