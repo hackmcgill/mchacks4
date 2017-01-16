@@ -399,9 +399,10 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
 /* line 360, ../sass/style.scss */
 .press_sec {
   margin-top: 10%;
+  font-family: Brandon;
 }
 
-/* line 364, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 #cbctop {
   /*display: inline-block;*/
   height: 60%;
@@ -411,7 +412,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   /*backgroundhttps://127.0.0.1:8000/-color: red;*/
 }
 
-/* line 372, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 #cbctop img {
   display: block;
   margin-right: auto;
@@ -421,18 +422,18 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   height: 135px;
 }
 
-/* line 381, ../sass/style.scss */
+/* line 382, ../sass/style.scss */
 #cbcbot p {
   margin-top: 21px;
 }
 
-/* line 385, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 #pressright a {
   text-decoration: none;
   color: #3c3c3c;
 }
 
-/* line 390, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 #video {
   display: block;
   width: 100%;
@@ -444,7 +445,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   margin-top: 10%;
 }
 
-/* line 401, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 #youtube {
   margin-top: 20px;
   width: 50%;
@@ -452,20 +453,20 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   margin-right: auto;
 }
 
-/* line 408, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 #video iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 413, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 .horline {
   margin: auto;
   width: 90%;
   border: 2px solid black;
 }
 
-/* line 419, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 #page2 a, #page3 a {
   /*height: 3rem;*/
   /*float: left;*/
@@ -473,7 +474,7 @@ url('../images/polygon_symmetric.png') no-repeat center center fixed;*/
   padding: 1rem 0;
 }
 
-/* line 426, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 img {
   zoom: 2;
   max-height: 100%;
@@ -487,7 +488,7 @@ img {
   margin-bottom: auto;
 }
 
-/* line 440, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .giga, .mega, .kilo, .byte, .nibble {
   display: inline-block;
   margin-top: 1rem;
@@ -496,12 +497,12 @@ img {
   width: 100%;
   height: 100%;
 }
-/* line 447, ../sass/style.scss */
+/* line 448, ../sass/style.scss */
 .giga a, .mega a, .kilo a, .byte a, .nibble a {
   position: relative;
 }
 
-/* line 452, ../sass/style.scss */
+/* line 453, ../sass/style.scss */
 #sponsor_bg {
   width: 90%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -509,70 +510,70 @@ img {
   border: 2px solid black;
 }
 
-/* line 460, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 #sponsor_current .giga a {
   height: 8rem;
   width: 100%;
 }
-/* line 464, ../sass/style.scss */
+/* line 465, ../sass/style.scss */
 #sponsor_current .mega a {
   height: 8rem;
   width: 30%;
 }
-/* line 469, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 #sponsor_current .kilo a {
   height: 4rem;
   width: 33%;
 }
-/* line 474, ../sass/style.scss */
+/* line 475, ../sass/style.scss */
 #sponsor_current .byte a {
   height: 3rem;
   width: 20%;
 }
-/* line 478, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 #sponsor_current .nibble a {
   height: 2rem;
   width: 15%;
 }
 
-/* line 485, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 #sponsor_past .giga a {
   height: 8rem;
   width: 40%;
 }
-/* line 489, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 #sponsor_past .mega a {
   height: 5rem;
   width: 33%;
 }
-/* line 494, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 #sponsor_past .kilo a {
   height: 4rem;
   width: 25%;
 }
-/* line 499, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 #sponsor_past .byte a {
   height: 3rem;
   width: 20%;
 }
-/* line 503, ../sass/style.scss */
+/* line 504, ../sass/style.scss */
 #sponsor_past .nibble a {
   height: 2rem;
   width: 15%;
 }
 
-/* line 509, ../sass/style.scss */
+/* line 510, ../sass/style.scss */
 #hardware li {
   color: #cc4f55;
 }
 
-/* line 512, ../sass/style.scss */
+/* line 513, ../sass/style.scss */
 #hardware li span {
   color: black;
   /* text color */
 }
 
-/* line 516, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 #hardware a {
   margin: 0;
   padding: 0;
@@ -580,7 +581,7 @@ img {
   text-decoration: none;
 }
 
-/* line 523, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 #hardware a:hover {
   margin: 0;
   padding: 0;
@@ -588,12 +589,12 @@ img {
   text-decoration: underline;
 }
 
-/* line 530, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 #faqs li {
   list-style-type: none;
 }
 
-/* line 534, ../sass/style.scss */
+/* line 535, ../sass/style.scss */
 #footer {
   font-family: Brandon;
   text-align: center;
@@ -603,7 +604,7 @@ img {
       padding:0;*/
 }
 
-/* line 543, ../sass/style.scss */
+/* line 544, ../sass/style.scss */
 #footer a {
   margin: 10px;
   display: inline-block;
@@ -614,24 +615,24 @@ img {
       margin-right: 150px;*/
 }
 
-/* line 552, ../sass/style.scss */
+/* line 553, ../sass/style.scss */
 #footer p {
   color: white;
 }
 
-/* line 556, ../sass/style.scss */
+/* line 557, ../sass/style.scss */
 #sched {
   height: 100%;
 }
 
-/* line 560, ../sass/style.scss */
+/* line 561, ../sass/style.scss */
 body {
   margin: 0;
   width: 100%;
   height: 100%;
 }
 
-/* line 565, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 #sched_center {
   margin-right: auto;
   margin-left: auto;
@@ -639,7 +640,7 @@ body {
   height: 300%;
 }
 
-/* line 573, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 iframe {
   width: 100%;
   height: 100%;
@@ -647,7 +648,7 @@ iframe {
   overflow-Y: hidden;
 }
 
-/* line 580, ../sass/style.scss */
+/* line 581, ../sass/style.scss */
 #pinboard {
   margin-top: 50px;
   height: 600px;
@@ -655,14 +656,14 @@ iframe {
   /*visibility: hidden;*/
 }
 
-/* line 586, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 #pinboard iframe {
   max-width: 1200px;
 }
 
 /* glitchy
  * stolen from: https://codepen.io/lbebber/pen/ypgql */
-/* line 593, ../sass/style.scss */
+/* line 594, ../sass/style.scss */
 .glitch {
   position: relative;
   margin: 0 auto;
@@ -670,70 +671,70 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(7px, 9999px, 90px, 0);
+    clip: rect(89px, 9999px, 48px, 0);
   }
   5% {
-    clip: rect(5px, 9999px, 30px, 0);
+    clip: rect(86px, 9999px, 91px, 0);
   }
   10% {
-    clip: rect(56px, 9999px, 31px, 0);
+    clip: rect(78px, 9999px, 43px, 0);
   }
   15% {
-    clip: rect(66px, 9999px, 33px, 0);
+    clip: rect(99px, 9999px, 25px, 0);
   }
   20% {
-    clip: rect(38px, 9999px, 83px, 0);
+    clip: rect(56px, 9999px, 89px, 0);
   }
   25% {
-    clip: rect(26px, 9999px, 31px, 0);
+    clip: rect(81px, 9999px, 40px, 0);
   }
   30% {
-    clip: rect(59px, 9999px, 52px, 0);
+    clip: rect(16px, 9999px, 7px, 0);
   }
   35% {
-    clip: rect(63px, 9999px, 38px, 0);
+    clip: rect(71px, 9999px, 55px, 0);
   }
   40% {
-    clip: rect(69px, 9999px, 44px, 0);
+    clip: rect(76px, 9999px, 39px, 0);
   }
   45% {
-    clip: rect(13px, 9999px, 63px, 0);
+    clip: rect(6px, 9999px, 20px, 0);
   }
   50% {
-    clip: rect(23px, 9999px, 30px, 0);
+    clip: rect(41px, 9999px, 80px, 0);
   }
   55% {
-    clip: rect(46px, 9999px, 86px, 0);
+    clip: rect(13px, 9999px, 71px, 0);
   }
   60% {
-    clip: rect(51px, 9999px, 25px, 0);
+    clip: rect(57px, 9999px, 28px, 0);
   }
   65% {
-    clip: rect(64px, 9999px, 99px, 0);
+    clip: rect(97px, 9999px, 41px, 0);
   }
   70% {
-    clip: rect(16px, 9999px, 54px, 0);
+    clip: rect(93px, 9999px, 4px, 0);
   }
   75% {
-    clip: rect(17px, 9999px, 47px, 0);
+    clip: rect(9px, 9999px, 36px, 0);
   }
   80% {
-    clip: rect(52px, 9999px, 86px, 0);
+    clip: rect(10px, 9999px, 3px, 0);
   }
   85% {
-    clip: rect(78px, 9999px, 49px, 0);
+    clip: rect(23px, 9999px, 75px, 0);
   }
   90% {
-    clip: rect(95px, 9999px, 2px, 0);
+    clip: rect(64px, 9999px, 87px, 0);
   }
   95% {
-    clip: rect(23px, 9999px, 67px, 0);
+    clip: rect(98px, 9999px, 48px, 0);
   }
   100% {
-    clip: rect(62px, 9999px, 20px, 0);
+    clip: rect(29px, 9999px, 61px, 0);
   }
 }
-/* line 605, ../sass/style.scss */
+/* line 606, ../sass/style.scss */
 .glitch:after {
   content: attr(data-text);
   position: absolute;
@@ -748,70 +749,70 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(29px, 9999px, 32px, 0);
+    clip: rect(33px, 9999px, 74px, 0);
   }
   5% {
-    clip: rect(92px, 9999px, 40px, 0);
+    clip: rect(85px, 9999px, 56px, 0);
   }
   10% {
-    clip: rect(60px, 9999px, 22px, 0);
+    clip: rect(64px, 9999px, 32px, 0);
   }
   15% {
-    clip: rect(62px, 9999px, 34px, 0);
+    clip: rect(8px, 9999px, 80px, 0);
   }
   20% {
-    clip: rect(93px, 9999px, 92px, 0);
+    clip: rect(62px, 9999px, 94px, 0);
   }
   25% {
-    clip: rect(69px, 9999px, 40px, 0);
+    clip: rect(23px, 9999px, 48px, 0);
   }
   30% {
-    clip: rect(19px, 9999px, 30px, 0);
+    clip: rect(29px, 9999px, 85px, 0);
   }
   35% {
-    clip: rect(43px, 9999px, 59px, 0);
+    clip: rect(16px, 9999px, 53px, 0);
   }
   40% {
-    clip: rect(37px, 9999px, 36px, 0);
+    clip: rect(62px, 9999px, 92px, 0);
   }
   45% {
-    clip: rect(43px, 9999px, 66px, 0);
+    clip: rect(32px, 9999px, 50px, 0);
   }
   50% {
-    clip: rect(84px, 9999px, 73px, 0);
+    clip: rect(80px, 9999px, 24px, 0);
   }
   55% {
-    clip: rect(55px, 9999px, 73px, 0);
+    clip: rect(8px, 9999px, 84px, 0);
   }
   60% {
-    clip: rect(21px, 9999px, 93px, 0);
+    clip: rect(24px, 9999px, 38px, 0);
   }
   65% {
-    clip: rect(45px, 9999px, 17px, 0);
+    clip: rect(33px, 9999px, 1px, 0);
   }
   70% {
-    clip: rect(11px, 9999px, 20px, 0);
+    clip: rect(36px, 9999px, 90px, 0);
   }
   75% {
-    clip: rect(83px, 9999px, 83px, 0);
+    clip: rect(76px, 9999px, 2px, 0);
   }
   80% {
-    clip: rect(54px, 9999px, 92px, 0);
+    clip: rect(87px, 9999px, 24px, 0);
   }
   85% {
-    clip: rect(65px, 9999px, 81px, 0);
+    clip: rect(94px, 9999px, 80px, 0);
   }
   90% {
-    clip: rect(74px, 9999px, 20px, 0);
+    clip: rect(88px, 9999px, 43px, 0);
   }
   95% {
-    clip: rect(5px, 9999px, 90px, 0);
+    clip: rect(16px, 9999px, 73px, 0);
   }
   100% {
-    clip: rect(92px, 9999px, 57px, 0);
+    clip: rect(34px, 9999px, 43px, 0);
   }
 }
-/* line 625, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 .glitch:before {
   content: attr(data-text);
   position: absolute;
@@ -825,12 +826,12 @@ iframe {
 }
 
 /* Registration */
-/* line 638, ../sass/style.scss */
+/* line 639, ../sass/style.scss */
 .bird-reg#birdbox {
   margin-top: 50px;
 }
 
-/* line 642, ../sass/style.scss */
+/* line 643, ../sass/style.scss */
 #application {
   width: 100%;
   margin: auto;
@@ -840,7 +841,7 @@ iframe {
   height: 900px;
 }
 
-/* line 651, ../sass/style.scss */
+/* line 652, ../sass/style.scss */
 #mcform input {
   font-size: 1.2em;
   width: 150px;
@@ -848,28 +849,28 @@ iframe {
   padding: 4px;
 }
 
-/* line 658, ../sass/style.scss */
+/* line 659, ../sass/style.scss */
 .form-input {
   float: left;
 }
 
-/* line 662, ../sass/style.scss */
+/* line 663, ../sass/style.scss */
 .form-input:not(:first-child) {
   margin-left: 10%;
 }
 
-/* line 666, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 #mcform label {
   display: block;
 }
 
 /* form css */
-/* line 676, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 form, ul, li, input, label {
   box-sizing: border-box;
 }
 
-/* line 679, ../sass/style.scss */
+/* line 680, ../sass/style.scss */
 #mcform h1 {
   color: #333;
   font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
@@ -878,7 +879,7 @@ form, ul, li, input, label {
   text-align: center;
 }
 
-/* line 687, ../sass/style.scss */
+/* line 688, ../sass/style.scss */
 #mcform ul {
   background-color: #fffdfa;
   border: 6px inset rgba(41, 32, 75, 0.7);
@@ -888,24 +889,24 @@ form, ul, li, input, label {
   max-width: 350px;
 }
 
-/* line 696, ../sass/style.scss */
+/* line 697, ../sass/style.scss */
 #mcform ul:last-child {
   border: none;
 }
 
-/* line 700, ../sass/style.scss */
+/* line 701, ../sass/style.scss */
 #mcform li {
   border-bottom: 1px solid #c8c8c8;
   margin-top: -1px;
   position: relative;
 }
 
-/* line 706, ../sass/style.scss */
+/* line 707, ../sass/style.scss */
 #mcform li:last-child {
   border-bottom: none;
 }
 
-/* line 710, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 #mcform label {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -914,14 +915,14 @@ form, ul, li, input, label {
   left: 10px;
   text-transform: uppercase;
 }
-/* line 717, ../sass/style.scss */
+/* line 718, ../sass/style.scss */
 .active #mcform label, input:focus + #mcform label {
   color: #0074D9;
   font-weight: bold;
   letter-spacing: -0.01em;
 }
 
-/* line 723, ../sass/style.scss */
+/* line 724, ../sass/style.scss */
 #mcform input, input:focus {
   background-color: transparent;
   border: none;
@@ -934,19 +935,19 @@ form, ul, li, input, label {
   width: 100%;
 }
 
-/* line 734, ../sass/style.scss */
+/* line 735, ../sass/style.scss */
 #mcform input:focus {
   color: #000;
   background-color: #eeeeee;
   box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
 }
 
-/* line 739, ../sass/style.scss */
+/* line 740, ../sass/style.scss */
 #mcform label, input {
   transition: color 0.4s ease, background-color 0.1s ease-in-out;
 }
 
-/* line 743, ../sass/style.scss */
+/* line 744, ../sass/style.scss */
 #mcform select {
   margin: 35px 10px 10px 10px;
   height: 30px;
@@ -957,12 +958,12 @@ form, ul, li, input, label {
   outline: none;
 }
 
-/* line 753, ../sass/style.scss */
+/* line 754, ../sass/style.scss */
 #reason {
   resize: none;
 }
 
-/* line 757, ../sass/style.scss */
+/* line 758, ../sass/style.scss */
 #mcform textarea {
   width: 94%;
   height: 205px;
@@ -977,26 +978,26 @@ form, ul, li, input, label {
   margin-bottom: -5px;
 }
 
-/* line 771, ../sass/style.scss */
+/* line 772, ../sass/style.scss */
 #mcform textarea:focus {
   color: #000;
   background-color: #eeeeee;
   box-shadow: 0px 3px 4px -2px rgba(0, 0, 115, 0.25) inset;
 }
 
-/* line 777, ../sass/style.scss */
+/* line 778, ../sass/style.scss */
 #mcform #fupload {
   font-size: 1em;
   text-align: justify;
   padding-top: 35px;
 }
 
-/* line 783, ../sass/style.scss */
+/* line 784, ../sass/style.scss */
 input:focus#fupload {
   background-color: transparent !important;
 }
 
-/* line 787, ../sass/style.scss */
+/* line 788, ../sass/style.scss */
 #app-header {
   margin: auto;
   font-family: Brandon;
@@ -1006,7 +1007,7 @@ input:focus#fupload {
   text-align: center;
 }
 
-/* line 797, ../sass/style.scss */
+/* line 798, ../sass/style.scss */
 #submit-app {
   border: none;
   background-color: #513C59;
@@ -1022,12 +1023,12 @@ input:focus#fupload {
   border: 3px solid white;
 }
 
-/* line 813, ../sass/style.scss */
+/* line 814, ../sass/style.scss */
 #submit-app:hover {
   background-color: #513C59;
 }
 
-/* line 817, ../sass/style.scss */
+/* line 818, ../sass/style.scss */
 #requiredField {
   width: 300px;
   margin: auto;
@@ -1037,12 +1038,12 @@ input:focus#fupload {
   text-align: center;
 }
 
-/* line 827, ../sass/style.scss */
+/* line 828, ../sass/style.scss */
 #required {
   color: #EE3E33;
 }
 
-/* line 831, ../sass/style.scss */
+/* line 832, ../sass/style.scss */
 #thanks {
   width: 90%;
   margin: auto;
@@ -1053,7 +1054,7 @@ input:focus#fupload {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 842, ../sass/style.scss */
+/* line 843, ../sass/style.scss */
 #code_conduct {
   width: 45%;
   margin: auto;
@@ -1064,19 +1065,19 @@ input:focus#fupload {
   margin-bottom: 40px;
 }
 
-/* line 854, ../sass/style.scss */
+/* line 855, ../sass/style.scss */
 #hackathon_conduct {
   text-align: left;
   margin-left: 20px;
 }
 
-/* line 859, ../sass/style.scss */
+/* line 860, ../sass/style.scss */
 #mcform #allergies {
   margin-top: 60px;
   height: 110px;
 }
 
-/* line 864, ../sass/style.scss */
+/* line 865, ../sass/style.scss */
 #captcha {
   color: red;
   padding: 10px;
@@ -1084,7 +1085,7 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 871, ../sass/style.scss */
+/* line 872, ../sass/style.scss */
 #check_conduct {
   color: red;
   padding: 10px;
@@ -1092,7 +1093,7 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 878, ../sass/style.scss */
+/* line 879, ../sass/style.scss */
 #file_fail {
   color: red;
   padding: 10px;
@@ -1100,7 +1101,7 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 885, ../sass/style.scss */
+/* line 886, ../sass/style.scss */
 #safari_fail {
   color: red;
   padding: 10px;
@@ -1108,17 +1109,17 @@ input:focus#fupload {
   font-size: 14px;
 }
 
-/* line 892, ../sass/style.scss */
+/* line 893, ../sass/style.scss */
 #submit_sec ul {
   border: none;
 }
 
-/* line 896, ../sass/style.scss */
+/* line 897, ../sass/style.scss */
 .squaredFour {
   width: 20px;
   position: relative;
 }
-/* line 899, ../sass/style.scss */
+/* line 900, ../sass/style.scss */
 .squaredFour p {
   color: #3c3c3c;
   letter-spacing: 0.03em;
@@ -1131,7 +1132,7 @@ input:focus#fupload {
   text-align: left;
   margin: 0;
 }
-/* line 911, ../sass/style.scss */
+/* line 912, ../sass/style.scss */
 .squaredFour label {
   width: 15px;
   height: 15px;
@@ -1144,7 +1145,7 @@ input:focus#fupload {
   border-radius: 4px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-/* line 922, ../sass/style.scss */
+/* line 923, ../sass/style.scss */
 .squaredFour label:after {
   content: '';
   width: 9px;
@@ -1159,20 +1160,20 @@ input:focus#fupload {
   opacity: 0;
   transform: rotate(-45deg);
 }
-/* line 936, ../sass/style.scss */
+/* line 937, ../sass/style.scss */
 .squaredFour label:hover::after {
   opacity: 0.5;
 }
-/* line 940, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 .squaredFour input[type=checkbox] {
   visibility: hidden;
 }
-/* line 942, ../sass/style.scss */
+/* line 943, ../sass/style.scss */
 .squaredFour input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
 
-/* line 948, ../sass/style.scss */
+/* line 949, ../sass/style.scss */
 #apply_container {
   font-family: Brandon;
   width: 32%;
@@ -1180,7 +1181,7 @@ input:focus#fupload {
   position: relative;
 }
 
-/* line 957, ../sass/style.scss */
+/* line 958, ../sass/style.scss */
 #thanks_container {
   width: 65%;
   margin: auto;
@@ -1191,7 +1192,7 @@ input:focus#fupload {
   margin-bottom: 40px;
 }
 
-/* line 969, ../sass/style.scss */
+/* line 970, ../sass/style.scss */
 #schedule_container {
   width: 55%;
   margin: auto;
@@ -1199,12 +1200,12 @@ input:focus#fupload {
   text-align: justify;
   margin-bottom: 40px;
 }
-/* line 978, ../sass/style.scss */
+/* line 979, ../sass/style.scss */
 #schedule_container section {
   margin-bottom: 30px;
 }
 
-/* line 983, ../sass/style.scss */
+/* line 984, ../sass/style.scss */
 .sched_table {
   background-color: #fffdfa;
   border: 6px inset rgba(41, 32, 75, 0.7);
@@ -1214,50 +1215,50 @@ input:focus#fupload {
   min-width: 500px;
   border-collapse: collapse;
 }
-/* line 992, ../sass/style.scss */
+/* line 993, ../sass/style.scss */
 .sched_table caption {
   background-color: rgba(255, 255, 255, 0.7);
   margin-bottom: 10px;
 }
-/* line 997, ../sass/style.scss */
+/* line 998, ../sass/style.scss */
 .sched_table tr, .sched_table td, .sched_table th {
   border: 1px solid #c8c8c8;
   padding: 5px;
 }
 
-/* line 1004, ../sass/style.scss */
+/* line 1005, ../sass/style.scss */
 #morganstanley {
   margin-left: 20px;
   margin-top: 1px;
 }
 
 @media only screen and (orientation: portrait), screen and (max-width: 1040px) {
-  /* line 1021, ../sass/style.scss */
+  /* line 1022, ../sass/style.scss */
   #sponsor_text {
     display: none;
   }
 
-  /* line 1025, ../sass/style.scss */
+  /* line 1026, ../sass/style.scss */
   #morganstanley {
     margin: auto;
   }
 
-  /* line 1029, ../sass/style.scss */
+  /* line 1030, ../sass/style.scss */
   .sponsor_container a {
     width: 100% !important;
   }
 
-  /* line 1033, ../sass/style.scss */
+  /* line 1034, ../sass/style.scss */
   #faqs {
     width: 80%;
   }
 
-  /* line 1037, ../sass/style.scss */
+  /* line 1038, ../sass/style.scss */
   #code_conduct {
     width: 80%;
   }
 
-  /* line 1041, ../sass/style.scss */
+  /* line 1042, ../sass/style.scss */
   #buttonbox {
     width: 62%;
     left: 19%;
@@ -1265,22 +1266,22 @@ input:focus#fupload {
     line-height: 2em;
   }
 
-  /* line 1048, ../sass/style.scss */
+  /* line 1049, ../sass/style.scss */
   #schedulebutton {
     width: 100%;
   }
 
-  /* line 1052, ../sass/style.scss */
+  /* line 1053, ../sass/style.scss */
   #applybutton {
     width: 100%;
   }
 
-  /* line 1056, ../sass/style.scss */
+  /* line 1057, ../sass/style.scss */
   #sponsorbutton {
     width: 100%;
   }
 
-  /* line 1060, ../sass/style.scss */
+  /* line 1061, ../sass/style.scss */
   #title_container {
     height: 57%;
     width: 65%;
@@ -1288,59 +1289,59 @@ input:focus#fupload {
     left: 18%;
   }
 
-  /* line 1067, ../sass/style.scss */
+  /* line 1068, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 1071, ../sass/style.scss */
+  /* line 1072, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 1076, ../sass/style.scss */
+  /* line 1077, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1081, ../sass/style.scss */
+  /* line 1082, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1086, ../sass/style.scss */
+  /* line 1087, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 1089, ../sass/style.scss */
+  /* line 1090, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
   }
 
-  /* line 1094, ../sass/style.scss */
+  /* line 1095, ../sass/style.scss */
   #application {
     width: 100%;
     padding: 0px;
   }
 
-  /* line 1099, ../sass/style.scss */
+  /* line 1100, ../sass/style.scss */
   #thanks {
     width: 90%;
   }
 
-  /* line 1103, ../sass/style.scss */
+  /* line 1104, ../sass/style.scss */
   #thanks_container {
     width: 80%;
   }
 
-  /* line 1107, ../sass/style.scss */
+  /* line 1108, ../sass/style.scss */
   #apply_container {
     width: 80%;
     margin: auto;
@@ -1350,7 +1351,7 @@ input:focus#fupload {
     padding: 30px;
   }
 
-  /* line 1116, ../sass/style.scss */
+  /* line 1117, ../sass/style.scss */
   .squaredFour p {
     width: 300px;
     font-size: 0.5em;
@@ -1358,29 +1359,29 @@ input:focus#fupload {
     font-size: 0.7em;
   }
 
-  /* line 1123, ../sass/style.scss */
+  /* line 1124, ../sass/style.scss */
   #mcform label {
     font-size: 13px;
     text-align: left;
   }
 
-  /* line 1128, ../sass/style.scss */
+  /* line 1129, ../sass/style.scss */
   #mcform input {
     font-size: 13px;
   }
 
-  /* line 1132, ../sass/style.scss */
+  /* line 1133, ../sass/style.scss */
   #thanks {
     padding: 10px;
   }
 
-  /* line 1136, ../sass/style.scss */
+  /* line 1137, ../sass/style.scss */
   .press_cont {
     height: 800px;
     font-family: Brandon;
   }
 
-  /* line 1142, ../sass/style.scss */
+  /* line 1143, ../sass/style.scss */
   #rc-imageselect, .g-recaptcha {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
@@ -1388,17 +1389,17 @@ input:focus#fupload {
     -webkit-transform-origin: 0 0;
   }
 
-  /* line 1144, ../sass/style.scss */
+  /* line 1145, ../sass/style.scss */
   #schedule_container {
     width: 90%;
   }
-  /* line 1147, ../sass/style.scss */
+  /* line 1148, ../sass/style.scss */
   #schedule_container .sched_table {
     min-width: 100%;
   }
 }
 @media (max-width: 1040px) and (min-width: 455px) {
-  /* line 1154, ../sass/style.scss */
+  /* line 1155, ../sass/style.scss */
   #mcgillbox, #talkbox, #datebox {
     display: none;
   }
