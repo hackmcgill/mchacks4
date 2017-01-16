@@ -671,67 +671,67 @@ iframe {
 
 @keyframes noise-anim {
   0% {
-    clip: rect(89px, 9999px, 48px, 0);
+    clip: rect(61px, 9999px, 59px, 0);
   }
   5% {
-    clip: rect(86px, 9999px, 91px, 0);
+    clip: rect(54px, 9999px, 13px, 0);
   }
   10% {
-    clip: rect(78px, 9999px, 43px, 0);
+    clip: rect(98px, 9999px, 89px, 0);
   }
   15% {
-    clip: rect(99px, 9999px, 25px, 0);
+    clip: rect(16px, 9999px, 10px, 0);
   }
   20% {
-    clip: rect(56px, 9999px, 89px, 0);
+    clip: rect(60px, 9999px, 6px, 0);
   }
   25% {
-    clip: rect(81px, 9999px, 40px, 0);
+    clip: rect(32px, 9999px, 18px, 0);
   }
   30% {
-    clip: rect(16px, 9999px, 7px, 0);
+    clip: rect(86px, 9999px, 9px, 0);
   }
   35% {
-    clip: rect(71px, 9999px, 55px, 0);
+    clip: rect(28px, 9999px, 94px, 0);
   }
   40% {
-    clip: rect(76px, 9999px, 39px, 0);
+    clip: rect(32px, 9999px, 75px, 0);
   }
   45% {
-    clip: rect(6px, 9999px, 20px, 0);
+    clip: rect(61px, 9999px, 69px, 0);
   }
   50% {
-    clip: rect(41px, 9999px, 80px, 0);
+    clip: rect(79px, 9999px, 24px, 0);
   }
   55% {
-    clip: rect(13px, 9999px, 71px, 0);
+    clip: rect(12px, 9999px, 82px, 0);
   }
   60% {
-    clip: rect(57px, 9999px, 28px, 0);
+    clip: rect(17px, 9999px, 48px, 0);
   }
   65% {
-    clip: rect(97px, 9999px, 41px, 0);
+    clip: rect(41px, 9999px, 28px, 0);
   }
   70% {
-    clip: rect(93px, 9999px, 4px, 0);
+    clip: rect(76px, 9999px, 56px, 0);
   }
   75% {
-    clip: rect(9px, 9999px, 36px, 0);
+    clip: rect(48px, 9999px, 55px, 0);
   }
   80% {
-    clip: rect(10px, 9999px, 3px, 0);
+    clip: rect(33px, 9999px, 2px, 0);
   }
   85% {
-    clip: rect(23px, 9999px, 75px, 0);
+    clip: rect(58px, 9999px, 66px, 0);
   }
   90% {
-    clip: rect(64px, 9999px, 87px, 0);
+    clip: rect(19px, 9999px, 37px, 0);
   }
   95% {
-    clip: rect(98px, 9999px, 48px, 0);
+    clip: rect(40px, 9999px, 50px, 0);
   }
   100% {
-    clip: rect(29px, 9999px, 61px, 0);
+    clip: rect(55px, 9999px, 73px, 0);
   }
 }
 /* line 606, ../sass/style.scss */
@@ -749,67 +749,67 @@ iframe {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(33px, 9999px, 74px, 0);
+    clip: rect(94px, 9999px, 4px, 0);
   }
   5% {
-    clip: rect(85px, 9999px, 56px, 0);
+    clip: rect(26px, 9999px, 85px, 0);
   }
   10% {
-    clip: rect(64px, 9999px, 32px, 0);
+    clip: rect(94px, 9999px, 3px, 0);
   }
   15% {
-    clip: rect(8px, 9999px, 80px, 0);
+    clip: rect(78px, 9999px, 5px, 0);
   }
   20% {
-    clip: rect(62px, 9999px, 94px, 0);
+    clip: rect(58px, 9999px, 4px, 0);
   }
   25% {
-    clip: rect(23px, 9999px, 48px, 0);
+    clip: rect(23px, 9999px, 91px, 0);
   }
   30% {
-    clip: rect(29px, 9999px, 85px, 0);
+    clip: rect(63px, 9999px, 94px, 0);
   }
   35% {
-    clip: rect(16px, 9999px, 53px, 0);
+    clip: rect(52px, 9999px, 43px, 0);
   }
   40% {
-    clip: rect(62px, 9999px, 92px, 0);
+    clip: rect(87px, 9999px, 74px, 0);
   }
   45% {
-    clip: rect(32px, 9999px, 50px, 0);
+    clip: rect(36px, 9999px, 18px, 0);
   }
   50% {
-    clip: rect(80px, 9999px, 24px, 0);
+    clip: rect(8px, 9999px, 70px, 0);
   }
   55% {
-    clip: rect(8px, 9999px, 84px, 0);
+    clip: rect(99px, 9999px, 83px, 0);
   }
   60% {
-    clip: rect(24px, 9999px, 38px, 0);
+    clip: rect(53px, 9999px, 93px, 0);
   }
   65% {
-    clip: rect(33px, 9999px, 1px, 0);
+    clip: rect(84px, 9999px, 21px, 0);
   }
   70% {
-    clip: rect(36px, 9999px, 90px, 0);
+    clip: rect(95px, 9999px, 76px, 0);
   }
   75% {
-    clip: rect(76px, 9999px, 2px, 0);
+    clip: rect(17px, 9999px, 83px, 0);
   }
   80% {
-    clip: rect(87px, 9999px, 24px, 0);
+    clip: rect(44px, 9999px, 61px, 0);
   }
   85% {
-    clip: rect(94px, 9999px, 80px, 0);
+    clip: rect(43px, 9999px, 94px, 0);
   }
   90% {
-    clip: rect(88px, 9999px, 43px, 0);
+    clip: rect(64px, 9999px, 61px, 0);
   }
   95% {
-    clip: rect(16px, 9999px, 73px, 0);
+    clip: rect(58px, 9999px, 69px, 0);
   }
   100% {
-    clip: rect(34px, 9999px, 43px, 0);
+    clip: rect(84px, 9999px, 70px, 0);
   }
 }
 /* line 626, ../sass/style.scss */
@@ -1232,33 +1232,63 @@ input:focus#fupload {
   margin-top: 1px;
 }
 
-@media only screen and (orientation: portrait), screen and (max-width: 1040px) {
+@media only screen and (max-height: 700px) {
+  /* line 1010, ../sass/style.scss */
+  #birdbox {
+    display: none;
+  }
+}
+@media only screen and (max-height: 570px) {
+  /* line 1016, ../sass/style.scss */
+  #talkbox {
+    display: none;
+  }
+}
+@media only screen and (max-height: 570px) {
   /* line 1022, ../sass/style.scss */
+  #talkbox {
+    display: none;
+  }
+}
+@media only screen and (max-height: 520px) {
+  /* line 1028, ../sass/style.scss */
+  #datebox {
+    display: none;
+  }
+}
+@media only screen and (max-height: 483px) {
+  /* line 1034, ../sass/style.scss */
+  #mcgillbox {
+    display: none;
+  }
+}
+@media only screen and (orientation: portrait), screen and (max-width: 1040px) {
+  /* line 1052, ../sass/style.scss */
   #sponsor_text {
     display: none;
   }
 
-  /* line 1026, ../sass/style.scss */
+  /* line 1056, ../sass/style.scss */
   #morganstanley {
     margin: auto;
   }
 
-  /* line 1030, ../sass/style.scss */
+  /* line 1060, ../sass/style.scss */
   .sponsor_container a {
     width: 100% !important;
   }
 
-  /* line 1034, ../sass/style.scss */
+  /* line 1064, ../sass/style.scss */
   #faqs {
     width: 80%;
   }
 
-  /* line 1038, ../sass/style.scss */
+  /* line 1068, ../sass/style.scss */
   #code_conduct {
     width: 80%;
   }
 
-  /* line 1042, ../sass/style.scss */
+  /* line 1072, ../sass/style.scss */
   #buttonbox {
     width: 62%;
     left: 19%;
@@ -1266,22 +1296,22 @@ input:focus#fupload {
     line-height: 2em;
   }
 
-  /* line 1049, ../sass/style.scss */
+  /* line 1079, ../sass/style.scss */
   #schedulebutton {
     width: 100%;
   }
 
-  /* line 1053, ../sass/style.scss */
+  /* line 1083, ../sass/style.scss */
   #applybutton {
     width: 100%;
   }
 
-  /* line 1057, ../sass/style.scss */
+  /* line 1087, ../sass/style.scss */
   #sponsorbutton {
     width: 100%;
   }
 
-  /* line 1061, ../sass/style.scss */
+  /* line 1091, ../sass/style.scss */
   #title_container {
     height: 57%;
     width: 65%;
@@ -1289,59 +1319,59 @@ input:focus#fupload {
     left: 18%;
   }
 
-  /* line 1068, ../sass/style.scss */
+  /* line 1098, ../sass/style.scss */
   #sponsor_text {
     bottom: 9%;
   }
 
-  /* line 1072, ../sass/style.scss */
+  /* line 1102, ../sass/style.scss */
   #press {
     height: auto;
     text-align: center;
   }
 
-  /* line 1077, ../sass/style.scss */
+  /* line 1107, ../sass/style.scss */
   #pressleft {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1082, ../sass/style.scss */
+  /* line 1112, ../sass/style.scss */
   #pressright {
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  /* line 1087, ../sass/style.scss */
+  /* line 1117, ../sass/style.scss */
   #footer {
     display: none;
   }
 
-  /* line 1090, ../sass/style.scss */
+  /* line 1120, ../sass/style.scss */
   #pinboard {
     visibility: hidden;
     height: 0px;
   }
 
-  /* line 1095, ../sass/style.scss */
+  /* line 1125, ../sass/style.scss */
   #application {
     width: 100%;
     padding: 0px;
   }
 
-  /* line 1100, ../sass/style.scss */
+  /* line 1130, ../sass/style.scss */
   #thanks {
     width: 90%;
   }
 
-  /* line 1104, ../sass/style.scss */
+  /* line 1134, ../sass/style.scss */
   #thanks_container {
     width: 80%;
   }
 
-  /* line 1108, ../sass/style.scss */
+  /* line 1138, ../sass/style.scss */
   #apply_container {
     width: 80%;
     margin: auto;
@@ -1351,7 +1381,7 @@ input:focus#fupload {
     padding: 30px;
   }
 
-  /* line 1117, ../sass/style.scss */
+  /* line 1147, ../sass/style.scss */
   .squaredFour p {
     width: 300px;
     font-size: 0.5em;
@@ -1359,29 +1389,29 @@ input:focus#fupload {
     font-size: 0.7em;
   }
 
-  /* line 1124, ../sass/style.scss */
+  /* line 1154, ../sass/style.scss */
   #mcform label {
     font-size: 13px;
     text-align: left;
   }
 
-  /* line 1129, ../sass/style.scss */
+  /* line 1159, ../sass/style.scss */
   #mcform input {
     font-size: 13px;
   }
 
-  /* line 1133, ../sass/style.scss */
+  /* line 1163, ../sass/style.scss */
   #thanks {
     padding: 10px;
   }
 
-  /* line 1137, ../sass/style.scss */
+  /* line 1167, ../sass/style.scss */
   .press_cont {
     height: 800px;
     font-family: Brandon;
   }
 
-  /* line 1143, ../sass/style.scss */
+  /* line 1173, ../sass/style.scss */
   #rc-imageselect, .g-recaptcha {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
@@ -1389,17 +1419,17 @@ input:focus#fupload {
     -webkit-transform-origin: 0 0;
   }
 
-  /* line 1145, ../sass/style.scss */
+  /* line 1175, ../sass/style.scss */
   #schedule_container {
     width: 90%;
   }
-  /* line 1148, ../sass/style.scss */
+  /* line 1178, ../sass/style.scss */
   #schedule_container .sched_table {
     min-width: 100%;
   }
 }
 @media (max-width: 1040px) and (min-width: 455px) {
-  /* line 1155, ../sass/style.scss */
+  /* line 1185, ../sass/style.scss */
   #mcgillbox, #talkbox, #datebox {
     display: none;
   }

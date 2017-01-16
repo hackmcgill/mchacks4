@@ -1006,6 +1006,36 @@ input:focus#fupload {
         margin-left: 20px; margin-top: 1px;
     }
 
+@media only screen and (max-height:700px) {
+    #birdbox {
+        display: none;
+    }
+}
+
+@media only screen and (max-height:570px) {
+    #talkbox {
+        display: none;
+    }
+}
+
+@media only screen and (max-height:570px) {
+    #talkbox {
+        display: none;
+    }
+}
+
+@media only screen and (max-height:520px) {
+    #datebox {
+        display: none;
+    }
+}
+
+@media only screen and (max-height:483px) {
+    #mcgillbox {
+        display: none;
+    }
+}
+
 @media only screen and (orientation:portrait), screen and (max-width:1040px) {
     // #page1 {
     //     background:
