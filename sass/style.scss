@@ -6,6 +6,8 @@ ul {
 }
 
 
+/* kek */
+
 @font-face {
   font-family: Brandon;
   src: url('../fonts/brandontext-regular-webfont.woff2') format('woff2'),
@@ -339,7 +341,7 @@ div {
 }
 
 .press_cont {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     height: 400px;
 }
@@ -1004,251 +1006,154 @@ input:focus#fupload {
         margin-left: 20px; margin-top: 1px;
     }
 
-#autodesk {
-    margin-right: 10px;
-}
+@media only screen and (orientation:portrait), screen and (max-width:1040px) {
+    // #page1 {
+    //     background:
+    //     url('../images/mobile_layer.png') no-repeat top,
+    //     url('../images/mobile_background.png') no-repeat center center;
+    //     -webkit-background-size: cover, 100% 75%;
+    //     -moz-background-size: cover, 100% 75%;
+    //     -o-background-size: cover, 100% 75%;
+    //     background-size: 100% 75%, cover;
+    //     background-repeat: no-repeat;
+    //     min-height:100%;
+    // }
 
-@media only screen and (orientation:landscape) {
-
-    @media only screen and (max-height:700px) {
-        #birdbox {
-            display: none;
-        }
+    #sponsor_text {
+        display: none;
     }
 
-    @media only screen and (max-height:570px) {
-        #talkbox {
-            display: none;
-        }
+    #morganstanley {
+        margin: auto;
     }
 
-    @media only screen and (max-height:570px) {
-        #talkbox {
-            display: none;
-        }
+    .sponsor_container a {
+        width: 100% !important;
     }
 
-    @media only screen and (max-height:520px) {
-        #datebox {
-            display: none;
-        }
-    }
-
-    @media only screen and (max-height:483px) {
-        #mcgillbox {
-            display: none;
-        }
-    }
-
-}
-
-#page3 {
-    margin-bottom: 300px;
-}
-
-@media only screen and (max-width:1040px) {
-
-        // #page1 {
-        //     background:
-        //     url('../images/mobile_layer.png') no-repeat top,
-        //     url('../images/mobile_background.png') no-repeat center center;
-        //     -webkit-background-size: cover, 100% 75%;
-        //     -moz-background-size: cover, 100% 75%;
-        //     -o-background-size: cover, 100% 75%;
-        //     background-size: 100% 75%, cover;
-        //     background-repeat: no-repeat;
-        //     min-height:100%;
-        // }
-
-        #schedulebutton, #applybutton, #sponsorbutton {
-            font-size: 28px !important;
-        }
-
-        #sponsor_text {
-            display: none;
-        }
-
-        #morganstanley {
-            margin: auto;
-        }
-
-        #autodesk {
-            margin: auto;
-        }
-
-        .sponsor_container a {
-            width: 100% !important;
-        }
-
-        #faqs {
-            width: 80%;
-        }
-
-        #code_conduct {
-            width: 80%
-        }
-
-        #buttonbox{
-            width: 62%;
-            left: 19%;
-            bottom: 0%;
-            line-height: 2em;
-        }
-
-        #schedulebutton {
-            width: 100%;
-        }
-
-        #applybutton {
-            width: 100%;
-        }
-
-        #sponsorbutton {
-            width: 100%;
-        }
-
-        #title_container {
-            height: 57%;
-            width: 65%;
-            top: 10%;
-            left: 18%;
-        }
-
-        #sponsor_text {
-            bottom: 9%;
-        }
-
-        #press{
-            height: auto;
-            text-align: center;
-        }
-
-        #pressleft {
-            width:100%;
-            display: block;
-            margin: auto;
-        }
-        #pressright {
-            width:100%;
-            display: block;
-            margin: auto;
-        }
-        #footer {
-            display:none;
-        }
-        #pinboard{
-            visibility: hidden;
-            height:0px;
-        }
-
-        #application {
-            width: 100%;
-            padding: 0px;
-        }
-
-        #thanks {
-            width: 90%
-        }
-
-        #thanks_container {
+    #faqs {
         width: 80%;
-        }
+    }
 
-        #apply_container {
-        width:80%;
-        margin:auto;
-        font-family: Brandon;
-        margin-top:3%;
-        text-align: justify;
-        padding: 30px;
-        }
+    #code_conduct {
+        width: 80%
+    }
 
-        .squaredFour p {
-            width: 300px;
-            font-size: 0.5em;
-            width: 210px;
-            font-size: 0.7em;
-        }
+    #buttonbox{
+        width: 62%;
+        left: 19%;
+        bottom: 0%;
+        line-height: 2em;
+    }
 
-        #mcform label {
-            font-size: 13px;
-            text-align: left;
-        }
+    #schedulebutton {
+        width: 100%;
+    }
 
-        #mcform input {
-            font-size: 13px;
-        }
+    #applybutton {
+        width: 100%;
+    }
 
-        #thanks {
-            padding: 10px;
-        }
+    #sponsorbutton {
+        width: 100%;
+    }
 
-        .press_cont {
-            height: 800px;
-            font-family: Brandon;
-        }
+    #title_container {
+        height: 57%;
+        width: 65%;
+        top: 10%;
+        left: 18%;
+    }
 
-        //resize captcha
-        #rc-imageselect, .g-recaptcha {transform:scale(0.80);-webkit-transform:scale(0.80);transform-origin:0 0;-webkit-transform-origin:0 0;}
+    #sponsor_text {
+        bottom: 9%;
+    }
 
-        #schedule_container {
-            width: 90%;
-
-            .sched_table {
-                min-width: 100%;
-            }
-        }
-
-        @media only screen and (max-height:550px) {
-            #mcgillbox {
-                display: none;
-            }
-        }
-
-        @media only screen and (max-height:600px) {
-            #datebox {
-                display: none;
-            }
-        }
-
-}
-
-@media only screen and (max-height:420px) {    
-    
-    #mchacksbox {
-        font-size: 40px !important;
+    #press{
+        height: auto;
         text-align: center;
     }
-}
 
-// @media (max-width:1040px) and (min-width:455px) {
-//     #mcgillbox, #talkbox, #datebox {
-//         display: none
-//     }
-// }
+    #pressleft {
+        width:100%;
+        display: block;
+        margin: auto;
+    }
+    #pressright {
+        width:100%;
+        display: block;
+        margin: auto;
+    }
+    #footer {
+        display:none;
+    }
+    #pinboard{
+        visibility: hidden;
+        height:0px;
+    }
 
+    #application {
+        width: 100%;
+        padding: 0px;
+    }
 
-@media (max-width:725px) and (min-width:440px) {
-    #talkbox {
-        display: none;
+    #thanks {
+        width: 90%
+    }
+
+    #thanks_container {
+    width: 80%;
+    }
+
+    #apply_container {
+    width:80%;
+    margin:auto;
+    font-family: Brandon;
+    margin-top:3%;
+    text-align: justify;
+    padding: 30px;
+    }
+
+    .squaredFour p {
+        width: 300px;
+        font-size: 0.5em;
+        width: 210px;
+        font-size: 0.7em;
+    }
+
+    #mcform label {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    #mcform input {
+        font-size: 13px;
+    }
+
+    #thanks {
+        padding: 10px;
+    }
+
+    .press_cont {
+        height: 800px;
+        font-family: Brandon;
+    }
+
+    //resize captcha
+    #rc-imageselect, .g-recaptcha {transform:scale(0.80);-webkit-transform:scale(0.80);transform-origin:0 0;-webkit-transform-origin:0 0;}
+
+    #schedule_container {
+        width: 90%;
+
+        .sched_table {
+            min-width: 100%;
+        }
     }
 }
 
-@media (max-width:1040px) and (min-width:850px) {
-    #talkbox {
-        display: none;
-    }
-}
-
-@media (max-width:1040px) and (min-width:920px) {
-    #talkbox {
-        display: none;
-    }
-}
-
-@media (max-width:1040px) and (min-width:990px) {
-    #datebox {
-        display: none;
+@media (max-width:1040px) and (min-width:455px) {
+    #mcgillbox, #talkbox, #datebox {
+        display: none
     }
 }
 
