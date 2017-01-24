@@ -1252,19 +1252,32 @@ input:focus#fupload {
     }
 }
 
+// Hacker Info CSS //
+.hacker-info_container, .packing-list{
+    width:45%;
+    margin:auto;
+    font-family: Brandon;
+    margin-bottom:4%;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    padding: 30px;
+}
 
+.hacker-info_container a, .packing-list a{
+    margin:0;
+    padding:0;
+    color:rgb(204, 79, 85);
+}
 
+.hacker-info_container li{
+    list-style-type: none;
+}
 
+.packing-list li{
+    margin-left: 2%;
+    list-style-type: square;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#get-to-mchacks iframe {
+    height: 450px;
+}
