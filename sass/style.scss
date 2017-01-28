@@ -1188,15 +1188,20 @@ input:focus#fupload {
             font-family: Brandon;
         }
 
-        //resize captcha
-        #rc-imageselect, .g-recaptcha {transform:scale(0.80);-webkit-transform:scale(0.80);transform-origin:0 0;-webkit-transform-origin:0 0;}
-
         #schedule_container {
             width: 90%;
 
             .sched_table {
                 min-width: 100%;
             }
+        }
+
+        //resize captcha
+        #rc-imageselect, .g-recaptcha {transform:scale(0.80);-webkit-transform:scale(0.80);transform-origin:0 0;-webkit-transform-origin:0 0;}
+
+        .hacker-info_container {
+            width: 90%;
+            min-width: 100%;
         }
 
         @media only screen and (max-height:550px) {
