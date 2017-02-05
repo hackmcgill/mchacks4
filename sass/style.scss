@@ -136,7 +136,7 @@ div {
 #schedulebutton {
     /*display: inline-block;  */
     cursor: pointer;
-    width: 40%;
+    width: 50%;
     padding-bottom: 2%;  /* this is black magic */
     margin: 3% auto;
     margin-top: 2%;
@@ -154,7 +154,7 @@ div {
 #sponsorbutton{
     /*display: inline-block;  */
     cursor: pointer;
-    width: 40%;
+    width: 50%;
     padding-bottom: 2%;
     margin: 3% auto;
     margin-top:0;
@@ -163,11 +163,13 @@ div {
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 4px;
+    
+    font-size: 30px !important;
 }
 
 #applybutton{
     cursor: pointer;
-    width: 40%;
+    width: 50%;
     padding-bottom: 2%;
     margin: 3% auto;
     margin-top:0;
@@ -176,6 +178,8 @@ div {
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 4px;
+    
+    font-size: 30px !important;
 
 }
 
